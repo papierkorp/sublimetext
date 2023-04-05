@@ -1,0 +1,5 @@
+{
+	"error_filter": "error|fail|exception|fehler|SCHWERWIEGEND",
+	"warning_filter": "warning|not found|defer(ed)?|warnung|note|warn",
+	"highlight_style": "fill"
+}

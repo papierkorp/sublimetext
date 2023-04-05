@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"All Autocomplete",
+		"Ansible",
+		"ApplySyntax",
+		"Babel",
+		"BracketHighlighter",
+		"DokuWiki Syntax",
+		"HTML-CSS-JS Prettify",
+		"Jinja2",
+		"Kubernetes Manifest autocomplete",
+		"LogView",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"Package Control",
+		"PlainTasks",
+		"SideBarEnhancements",
+		"Terminus",
+		"Theme - Spacegray",
+	],
+}

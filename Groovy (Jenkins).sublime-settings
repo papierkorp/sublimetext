@@ -1,0 +1,11 @@
+{
+	"extensions":
+	[
+		"Jenkinsfile_configuration",
+		"Jenkinsfile_legacy_leasone",
+		"Jenkinsfile_legacy_portal",
+		"Jenkinsfile_services",
+		"Jenkinsfile_storybook",
+		"Jenkinsfile_webapp",
+	]
+}
