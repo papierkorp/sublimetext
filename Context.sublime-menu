@@ -7,5 +7,3 @@
 	{ "caption": "Javascript", "command": "set_file_type", "args": {"syntax": "Packages/Babel/JavaScript (Babel)"}},
 	{ "caption": "YAML", "command": "set_file_type", "args": {"syntax": "Packages/YAML/YAML.tmLanguage"}},
 ]
-
-
