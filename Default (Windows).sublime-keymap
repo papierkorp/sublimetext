@@ -40,7 +40,9 @@
 			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
 		}
 	},
-	{"keys": ["ctrl+alt+o"], "command": "reindent", "args": {"single_line": false}}
+	{"keys": ["ctrl+alt+o"], "command": "reindent", "args": {"single_line": false}},
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" }
 ]
 
 
