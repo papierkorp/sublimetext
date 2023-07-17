@@ -1,6 +1,7 @@
 {
 	"error_filter": "error|fail|exception|fehler|SCHWERWIEGEND|invalid|failure|forbidden|Failed|fatal",
-	"warning_filter": "warning|not found|defer(ed)?|warnung|note|warn|stop",
+	"warning_filter": "warning|not found|defer(ed)?|warnung|note|warn|stop|illegal",
 	"mark_filter": "waiting",
-	"highlight_style": "fill"
+	"highlight_style": "fill",
+	"auto_match_words": false
 }
