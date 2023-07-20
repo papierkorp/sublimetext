@@ -1,5 +1,5 @@
 {
-	"error_filter": "error|fail|exception|fehler|SCHWERWIEGEND|invalid|failure|forbidden|Failed|fatal",
+	"error_filter": "error|fail|exception|fehler|SCHWERWIEGEND|invalid|failure|forbidden|Failed|fatal|SEVERE",
 	"warning_filter": "warning|not found|defer(ed)?|warnung|note|warn|stop|illegal",
 	"mark_filter": "waiting",
 	"highlight_style": "fill",
