@@ -2,10 +2,10 @@
 	"extensions":
 	[
 		"ash",
-		".profile",
 		"bashrc",
-		"bash",
+		".profile",
+		"sh",
 		"zsh",
-		"sh"
-	]
+		"bash",
+	],
 }
