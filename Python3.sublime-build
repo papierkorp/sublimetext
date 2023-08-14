@@ -1,5 +1,12 @@
+//funktioniert nur mit dem plugin "terminus"
 {
-    "cmd": ["C:\\Users\\Markus\\AppData\\Local\\Programs\\Python\\Python39\\python.exe", "-u", "$file"],
-    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-    "selector": "source.python"
+"target": "terminus_exec",
+"cancel": "terminus_cancel_build",
+
+"shell_cmd": "py $file",
+
+"auto_close": false,
+"focus": true,
+
+"selector":"source.python"
 }
