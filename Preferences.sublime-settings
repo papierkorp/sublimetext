@@ -9,4 +9,12 @@
 	"draw_minimap_border": true,
 	"always_show_minimap_viewport": true,
 	"show_encoding": true,
+	    "rules":
+    [
+
+        {
+            "class": "sidebar_tree",
+		    "spacer_rows": true,
+        },
+	],
 }

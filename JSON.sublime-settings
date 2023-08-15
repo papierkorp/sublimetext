@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"extensions":
 	[
@@ -11,3 +12,18 @@
 		".jscsrc",
 	],
 }
+=======
+{
+	"extensions":
+	[
+		".jscsrc",
+		".stylelintrc",
+		".csslintrc",
+		".babelrc",
+		"geojson",
+		".bowerrc",
+		".eslintrc",
+		".jshintrc",
+	],
+}
+>>>>>>> f0909b76b16e2a3e964efb663ed3061a52861819

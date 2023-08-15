@@ -1,0 +1,12 @@
+//funktioniert nur mit dem plugin "terminus"
+{
+"target": "terminus_exec",
+"cancel": "terminus_cancel_build",
+
+"shell_cmd": "py $file",
+
+"auto_close": false,
+"focus": true,
+
+"selector":"source.python"
+}

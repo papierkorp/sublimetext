@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"extensions":
 	[
@@ -9,3 +10,16 @@
 		"bash",
 	],
 }
+=======
+{
+	"extensions":
+	[
+		"ash",
+		"zsh",
+		"bash",
+		"bashrc",
+		".profile",
+		"sh",
+	],
+}
+>>>>>>> f0909b76b16e2a3e964efb663ed3061a52861819

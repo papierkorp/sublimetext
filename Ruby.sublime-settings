@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"extensions":
 	[
@@ -10,3 +11,17 @@
 		"jbuilder",
 	],
 }
+=======
+{
+	"extensions":
+	[
+		"podspec",
+		"simplecov",
+		"thor",
+		"rb",
+		"rake",
+		"jbuilder",
+		"rabl",
+	],
+}
+>>>>>>> f0909b76b16e2a3e964efb663ed3061a52861819

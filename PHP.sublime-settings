@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"extensions":
 	[
@@ -8,3 +9,15 @@
 		"php5",
 	],
 }
+=======
+{
+	"extensions":
+	[
+		"php4",
+		"php5",
+		"phtml",
+		"inc",
+		"php3",
+	],
+}
+>>>>>>> f0909b76b16e2a3e964efb663ed3061a52861819
