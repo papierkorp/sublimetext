@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 {
 	"extensions":
 	[
 		"xml.dist",
 	],
 }
-=======
-{
-	"extensions":
-	[
-		"xml.dist",
-	],
-}
->>>>>>> f0909b76b16e2a3e964efb663ed3061a52861819

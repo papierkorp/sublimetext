@@ -26,10 +26,6 @@
         {
             "syntax": "Ansible/Ansible",
             "rules": [{"file_path": ".*\\playbook.d"}, {"file_path": ".*\\inventory.d"}, {"file_path": ".*\\ansible"}]
-        },
-        {
-            "syntax": "Git Formats/Git Config",
-            "rules": [{"file_path": ".*\\gitconfig*"}]
-        },
+        }
     ]
 }

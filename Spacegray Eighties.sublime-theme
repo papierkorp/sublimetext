@@ -25,6 +25,5 @@
         "settings": ["!always_show_minimap_viewport"],
         "viewport_opacity": { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" },
     },
-
 	]
 }
