@@ -1,0 +1,23 @@
+// SublimeLinter Settings - User
+{
+	// "debug": true,
+	
+	"linters": {
+        "htmlhint":
+        {
+            "excludes": "*.md"
+        },
+        "yamllint": 
+        {
+            "d": "extends: default\nrules: { line-length: { max: 12000 } }",
+        },
+	},
+
+	"paths": {
+        "linux": [],
+        "osx": [],
+        "windows": [
+        	"C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\"
+        ]
+    }
+}
