@@ -5,7 +5,8 @@
 	"linters": {
         "htmlhint":
         {
-            "excludes": "*.md"
+            "excludes": "*.md",
+            "selector": "text.html.basic"
         },
         "yamllint": 
         {
