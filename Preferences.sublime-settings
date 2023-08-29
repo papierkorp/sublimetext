@@ -1,10 +1,6 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-<<<<<<< HEAD
 	"font_size": 17,
-=======
-	"font_size": 13,
->>>>>>> 43302dd9582cbdfabe2a4d849df52f8f1cdfc1c5
 	"ignored_packages":
 	[
 		"Vintage",
