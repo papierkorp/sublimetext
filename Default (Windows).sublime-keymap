@@ -12,7 +12,7 @@
 	},
 
 	{ 
-		"keys": ["ctrl+shift+o"], 
+		"keys": ["ctrl+alt+o"], 
 		"command": "reindent", 
 		"args": {"single_line": false}
 	},
