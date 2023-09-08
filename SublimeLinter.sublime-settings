@@ -12,6 +12,10 @@
         {
             "d": "extends: default\nrules: { line-length: { max: 12000 } }",
         },
+        "stylelint": {
+            "args": ["--config", "%APPDATA%/Sublime Text/Packages/User/.stylelintrc"]
+        },
+
 	},
 
 	"paths": {
