@@ -5,7 +5,9 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"ApacheConf",
+		"BracketHighlighter",
 		"Dockerfile Syntax Highlighting",
 		"DokuWiki Syntax",
 		"GDScript (Godot Engine)",
@@ -24,6 +26,7 @@
 		"PlainTasks",
 		"Pretty JSON",
 		"SCSS",
+		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-contrib-htmlhint",
 		"SublimeLinter-contrib-yamllint",
@@ -31,6 +34,7 @@
 		"SublimeLinter-json",
 		"SublimeLinter-ruby",
 		"SublimeLinter-stylelint",
+		"Terminus",
 		"Theme - Spacegray",
 	],
 }
