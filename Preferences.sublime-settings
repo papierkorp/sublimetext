@@ -10,5 +10,5 @@
 	"always_show_minimap_viewport": true,
 	"show_encoding": true,
 	"translate_tabs_to_spaces": true,
-	"index_files": true,
+	"index_files": false,
 }

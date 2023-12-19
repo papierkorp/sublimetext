@@ -15,10 +15,13 @@
         "stylelint": {
             "args": ["--config", "%APPDATA%/Sublime Text/Packages/User/.stylelintrc"]
         },
+        "dockerfilelint": {
+            "selector": "Dockerfile"
+        },
 
-	},
+    },
 
-	"paths": {
+    "paths": {
         "linux": [],
         "osx": [],
         "windows": [
