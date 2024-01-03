@@ -70,18 +70,18 @@
 		"yml",
 		"yml.dist"
 	],*/
-	"XML":
+	/*"XML":
 	[
 		"xml.dist"
-	],
-	"YAML":
+	],*/
+	/*"YAML":
 	[
 		".gemrc",
 		"YAML-tmLanguage",
 		"yml",
 		"yml.dist"
-	],
-	"Ruby":
+	],*/
+	/*"Ruby":
 	[
 		"jbuilder",
 		"podspec",
@@ -90,20 +90,20 @@
 		"rb",
 		"simplecov",
 		"thor"
-	],
-	"HTML (Rails)":
+	],*/
+	/*"HTML (Rails)":
 	[
 		"html.erb"
-	],
-	"PHP":
+	],*/
+	/*"PHP":
 	[
 		"inc",
 		"php3",
 		"php4",
 		"php5",
 		"phtml"
-	],
-	"Shell-Unix-Generic":
+	],*/
+	/*"Shell-Unix-Generic":
 	[
 		".profile",
 		"ash",
@@ -111,17 +111,17 @@
 		"bashrc",
 		"sh",
 		"zsh"
-	],
-	"HAML":
+	],*/
+	/*"HAML":
 	[
 		"haml"
-	],
-	"Python":
+	],*/
+	/*"Python":
 	[
 		"py3",
 		"pyw"
-	],
-	"JSON":
+	],*/
+	/*"JSON":
 	[
 		".babelrc",
 		".bowerrc",
@@ -131,5 +131,5 @@
 		".jshintrc",
 		".stylelintrc",
 		"geojson"
-	],
+	],*/
 }
