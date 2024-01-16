@@ -79,6 +79,7 @@
 	{ "keys": ["ctrl+shift+keypad_divide"], "command": "toggle_comment", "args": { "block": true } },
 	{ "keys": ["ctrl+alt+l"], "command": "sublime_linter_panel_toggle" },
 	{ "keys": ["ctrl+alt+j"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["ctrl+shift+r"], "command": "view_bookmarks"},
 
 ]
 
