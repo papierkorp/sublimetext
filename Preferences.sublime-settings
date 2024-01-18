@@ -1,14 +1,13 @@
 {
-	"color_scheme": "Monokai.sublime-color-scheme",
-	"font_size": 13,
-	"ignored_packages":
-	[
-		"Vintage",
-	],
-	"theme": "Spacegray Eighties.sublime-theme",
-	"draw_minimap_border": true,
-	"always_show_minimap_viewport": true,
-	"show_encoding": true,
-	"translate_tabs_to_spaces": true,
-	"index_files": false,
+  "color_scheme": "Monokai.sublime-color-scheme",
+  "font_size": 13,
+  "ignored_packages": [
+    //"Vintage",
+  ],
+  "theme": "Spacegray Eighties.sublime-theme",
+  "draw_minimap_border": true,
+  "always_show_minimap_viewport": true,
+  "show_encoding": true,
+  "translate_tabs_to_spaces": true,
+  "index_files": false
 }

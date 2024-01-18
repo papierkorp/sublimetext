@@ -1,31 +1,38 @@
 // SublimeLinter Settings - User
 {
-	// "debug": true,
-	
-	"linters": {
-        "htmlhint":
-        {
-            "excludes": "*.md",
-            "selector": "text.html.basic"
-        },
-        "yamllint": 
-        {
-            "d": "extends: default\nrules: { line-length: { max: 12000 } }",
-        },
-        "stylelint": {
-            "args": ["--config", "%APPDATA%/Sublime Text/Packages/User/.stylelintrc"]
-        },
-        "dockerfilelint": {
-            "selector": "Dockerfile"
-        },
+  // "debug": true,
 
+  "linters": {
+    "htmlhint": {
+      "disable": false,
+      "excludes": "*.md",
+      "selector": "text.html.basic"
     },
-
-    "paths": {
-        "linux": [],
-        "osx": [],
-        "windows": [
-        	"C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\"
-        ]
+    "yamllint": {
+      "disable": false,
+      "d": "extends: default\nrules: { line-length: { max: 12000 } }"
+    },
+    "stylelint": {
+      "disable": false,
+      "args": ["--config", "%APPDATA%/Sublime Text/Packages/User/.stylelintrc"]
+    },
+    "dockerfilelint": {
+      "disable": false,
+      "selector": "Dockerfile"
+    },
+    "shellcheck": {
+      "disable": false
+    },
+    "eslint": {
+      "disable": false,
+      "selector": "source.ts, source.js",
+      "args": ["--config", "C:\\develop\\space\\leasone\\webapp\\.eslintrc.js"]
     }
+  },
+
+  "paths": {
+    "linux": [],
+    "osx": [],
+    "windows": ["C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\"]
+  }
 }

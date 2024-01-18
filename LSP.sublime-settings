@@ -1,21 +1,11 @@
 {
   "show_inlay_hints": true,
-   "clients": {
-        "godot-lsp": {
-            "enabled": false,
-            "command": ["C:\\Users\\Markus\\Documents\\godot\\Godot_v4.1.2-stable_win64.exe"], 
-            "tcp_port": 6008,
-            "selector": "source.gdscript",
-        },
-        "kotlinls": {
-            "enabled": true,
-            "command": ["C:\\bin\\kotlin-lsp\\bin\\kotlin-language-server.bat"], // Update the PATH
-            "selector": "source.Kotlin",
-            "settings": {
-                "kotlin": {
-                    // put your server settings here
-                }
-            }
-        },
-    },
+  "clients": {
+    "godot-lsp": {
+      "enabled": false,
+      "command": ["C:\\Users\\Markus\\Documents\\godot\\Godot_v4.1.2-stable_win64.exe"],
+      "tcp_port": 6008,
+      "selector": "source.gdscript"
+    }
+  }
 }

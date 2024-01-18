@@ -1,0 +1,26 @@
+// Do NOT edit anything in the left-hand pane.
+// Pick up items you need, just make sure to maintain the structure.
+{
+  "debug": true,
+  "formatters": {
+    "ktlint": {
+      "disable": false,
+      "syntaxes": ["kotlin"],
+      "executable_path": "C:\\bin\\ktlint\\ktlint.bat"
+    },
+    "prettier": {
+      "disable": false,
+      "format_on_save": true,
+      "syntaxes": ["css", "scss", "less", "js", "jsx", "json", "html", "graphql", "markdown", "tsx", "vue", "yaml"],
+      "config_path": {
+        "default": "C:\\develop\\space\\leasone\\webapp\\.prettierrc.json",
+        "yaml": "${packages}\\User\\formatter.assets\\config\\prettier_rc.json"
+      }
+    },
+    "shellcheck": {
+      "disable": false,
+      "format_on_save": true,
+      "syntaxes": ["bash", "sh", "bat"]
+    }
+  }
+}
