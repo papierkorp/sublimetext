@@ -10,7 +10,8 @@
     },
     "yamllint": {
       "disable": false,
-      "d": "extends: default\nrules: { line-length: { max: 12000 } }"
+      // https://yamllint.readthedocs.io/en/latest/rules.html
+      "d": "extends: default\nrules: { line-length: { max: 12000 }, min-spaces-from-content: 0 }"
     },
     "stylelint": {
       "disable": false,
