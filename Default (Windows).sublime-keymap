@@ -60,12 +60,12 @@
     "keys": ["alt+4"],
     "command": "set_layout",
     "args": {
-      "cols": [0.0, 0.5, 1.0],
-      "rows": [0.0, 0.5, 1.0],
-      "cells": [
-        [0, 0, 2, 1],
-        [0, 1, 1, 2],
-        [1, 1, 2, 2]
+      "cols": [0.0, 0.5, 1.0], //offers 2 columns
+      "rows": [0.0, 0.5, 1.0], //offers 2 rows
+      "cells": [ //each array is one pane
+        [0, 0, 2, 1], //first pane: starts at column 0 (left) and ends at column 2 (right) and also start at row 0 (top) and ends at row 1 (mid)
+        [0, 1, 1, 2], //second pane: starts at column 0 (left) - and ends at column 1 (mid) and also starts at row 1 (mid) and ends at row 2 (bottom)
+        [1, 1, 2, 2], //third pane: starts at column 1 (mid) and ends at column 2 (right) and also start at row 1 (mid) and ends at row 2 (bottom) 
       ]
     }
   },
@@ -74,12 +74,44 @@
     "keys": ["alt+5"],
     "command": "set_layout",
     "args": {
-      "cols": [0.0, 0.5, 1.0],
-      "rows": [0.0, 0.5, 1.0],
-      "cells": [
-        [0, 0, 1, 1],
-        [1, 1, 1, 1],
-        [1, 1, 2, 1]
+      "cols": [0.0, 0.5, 1.0], //offers 2 columns
+      "rows": [0.0, 0.5, 1.0], //offers 2 rows
+      "cells": [ //each array is one pane
+        [0, 0, 1, 2], //first pane: column 0 - 1, row 0 - 2
+        [1, 1, 2, 2], //second pane: column 1 - 2, row 1 - 2
+        [1, 0, 2, 2], //third pane: column 1 - 2, row 0 - 2
+      ]
+    }
+  },
+
+  {
+    "keys": ["alt+6"],
+    "command": "set_layout",
+    "args": {
+      "cols": [0.0, 0.5, 1.0], //offers 2 columns
+      "rows": [0.0, 0.5, 1.0], //offers 2 rows
+      "cells": [ //each array is one pane
+        [0, 0, 1, 1], //first pane: column 0 - 1, row 0 - 2
+        [0, 1, 1, 2], //second pane: column 0 - 1, row 1 - 2
+        [1, 0, 2, 1], //third pane: column 1 - 2, row 0 - 2
+        [1, 1, 2, 2], //fourth pane: column 1 - 2, row 1 - 2
+      ]
+    }
+  },
+
+  {
+    "keys": ["alt+7"],
+    "command": "set_layout",
+    "args": {
+      "cols": [0.0, 0.33, 0.66, 1.0], //offers 3 columns
+      "rows": [0.0, 0.5, 1.0], //offers 2 rows
+      "cells": [ //each array is one pane
+        [0, 0, 1, 1], //first pane: column 0 - 1, row 0 - 2
+        [1, 0, 2, 1], //second pane: column 1 - 2, row 1 - 2
+        [2, 0, 3, 1], //third pane: column 1 - 2, row 0 - 2
+        [0, 1, 1, 2], //fourth pane: column 0 - 1, row 0 - 2
+        [1, 1, 2, 2], //fifth pane: column 1 - 2, row 1 - 2
+        [2, 1, 3, 2], //sixth pane: column 1 - 2, row 0 - 2
       ]
     }
   },
@@ -101,6 +133,13 @@
       ]
     }
   },
+
+  {
+    "keys": ["ctrl+y"],
+    "command": "toggle_setting", 
+    "args": {"setting": "word_wrap"}
+  },
+  
 
   {
     "keys": ["ctrl+alt+k"],
