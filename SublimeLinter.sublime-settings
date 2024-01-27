@@ -28,7 +28,10 @@
       "disable": false,
       "selector": "source.ts, source.js",
       "args": ["--config", "C:\\develop\\space\\leasone\\webapp\\.eslintrc.js"]
-    }
+    },
+    "lua": {
+      "disable": false,
+    },
   },
 
   "paths": {

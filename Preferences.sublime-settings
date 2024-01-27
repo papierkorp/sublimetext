@@ -5,6 +5,13 @@
     //"Vintage",
 /*"Terminus",*/
 /*"Git Conflict Resolver",*/
+/*"Git Conflict Resolver",*/
+/*"SublimeLinter-contrib-glualint",*/
+/*"SublimeLinter-contrib-glualint",*/
+/*"SublimeLinter-lua",*/
+/*"Formatter",*/
+/*"Formatter",*/
+/*"LSP-jdtls",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,

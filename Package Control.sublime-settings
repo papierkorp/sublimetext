@@ -50,6 +50,7 @@
 		"SublimeLinter-eslint",
 		"SublimeLinter-javac",
 		"SublimeLinter-json",
+		"SublimeLinter-lua",
 		"SublimeLinter-ruby",
 		"SublimeLinter-shellcheck",
 		"SublimeLinter-stylelint",
