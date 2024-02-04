@@ -5,14 +5,11 @@
     //"Vintage",
 /*"Terminus",*/
 /*"Git Conflict Resolver",*/
-/*"Git Conflict Resolver",*/
-/*"SublimeLinter-contrib-glualint",*/
-/*"SublimeLinter-contrib-glualint",*/
-/*"SublimeLinter-lua",*/
 /*"Formatter",*/
-/*"Formatter",*/
-/*"LSP-jdtls",*/
-/*"LSP-pyright",*/
+/*"Indent XML",*/
+/*"Indent XML",*/
+/*"HTMLBeautify",*/
+/*"HTMLBeautify",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
