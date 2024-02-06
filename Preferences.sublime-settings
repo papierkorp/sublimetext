@@ -10,6 +10,10 @@
 /*"Indent XML",*/
 /*"HTMLBeautify",*/
 /*"HTMLBeautify",*/
+/*"Formatter",*/
+/*"LSP-pyright",*/
+/*"Ansible",*/
+/*"SublimeLinter-contrib-ansible-lint",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,

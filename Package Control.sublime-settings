@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"A File Icon",
+		"Ansible",
 		"ApacheConf",
 		"ApplySyntax",
 		"Asterisk Config",
@@ -44,6 +45,7 @@
 		"SideBarEnhancements",
 		"SSH Config",
 		"SublimeLinter",
+		"SublimeLinter-contrib-ansible-lint",
 		"SublimeLinter-contrib-hadolint",
 		"SublimeLinter-contrib-htmlhint",
 		"SublimeLinter-contrib-yamllint",

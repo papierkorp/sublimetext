@@ -9,7 +9,7 @@
       "selector": "text.html.basic"
     },
     "yamllint": {
-      "disable": false,
+      "disable": true,
       // https://yamllint.readthedocs.io/en/latest/rules.html
       "d": "extends: default\nrules: { line-length: { max: 12000 }, min-spaces-from-content: 0 }"
     },
@@ -28,6 +28,10 @@
       "disable": false,
       "selector": "source.ts, source.js",
       "args": ["--config", "C:\\develop\\space\\leasone\\webapp\\.eslintrc.js"]
+    },
+    "ansible-lint": {
+      "disable": false,
+      "selector": "Ansible/Ansible"
     }
   },
 

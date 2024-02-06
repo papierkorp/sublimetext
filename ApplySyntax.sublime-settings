@@ -23,10 +23,23 @@
             "syntax": "zzz A File Icon zzz/aliases/Groovy (Jenkins)",
             "rules": [{"file_path": ".*\\Jenkinsfile*"}, {"globmatch": "*Jenkinsfile*"}]
         },
-        {
-            "syntax": "Ansible/Ansible",
-            "rules": [{"file_path": ".*\\playbook.d"}, {"file_path": ".*\\inventory.d"}, {"file_path": ".*\\ansible"}]
-        },
+{
+        "name": "Ansible/Ansible",
+        "rules": [
+          {"file_name": ".*/tasks/.*.yml$"},
+          {"file_name": ".*/handler/.*.yml$"},
+          {"file_name": ".*/*_vars/.*.yml$"},
+          {"file_name": ".*/roles/.*.yml$"},
+          {"file_name": ".*/playbooks/.*.yml$"},
+          {"file_name": ".*/.*ansible.*/.*.yml$"},
+          {"file_name": ".*/tasks/.*.yaml$"},
+          {"file_name": ".*/handler/.*.yaml$"},
+          {"file_name": ".*/*_vars/.*.yaml$"},
+          {"file_name": ".*/roles/.*.yaml$"},
+          {"file_name": ".*/playbooks/.*.yaml$"},
+          {"file_name": ".*/.*ansible.*/.*.yaml$"}
+        ]
+      },
         {
             "syntax": "Kotlin/Kotlin",
             "rules": [{"file_path": ".*\\.kts"}]
