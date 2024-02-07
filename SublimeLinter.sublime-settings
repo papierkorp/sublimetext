@@ -29,16 +29,13 @@
       "selector": "source.ts, source.js",
       "args": ["--config", "C:\\develop\\space\\leasone\\webapp\\.eslintrc.js"]
     },
-<<<<<<< HEAD
     "ansible-lint": {
       "disable": false,
       "selector": "Ansible/Ansible"
-    }
-=======
+    },
     "lua": {
       "disable": false,
     },
->>>>>>> d99ee902f09ab9d38434ffca72bcbadca8cad844
   },
 
   "paths": {
