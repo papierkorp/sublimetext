@@ -17,6 +17,7 @@
 /*"SublimeLinter-lua",*/
 /*"Formatter",*/
 /*"Package Control",*/
+/*"Jinja2",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,

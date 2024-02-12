@@ -19,6 +19,7 @@
 		"Generic Config",
 		"Git Config",
 		"Haproxy",
+		"Jinja2",
 		"Kotlin",
 		"Liquid",
 		"LogView",
