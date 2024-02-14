@@ -19,6 +19,7 @@
 /*"Package Control",*/
 /*"Jinja2",*/
 /*"SublimeLinter",*/
+/*"LSP-jdtls",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
