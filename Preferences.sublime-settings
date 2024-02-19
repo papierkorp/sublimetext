@@ -21,6 +21,7 @@
 /*"SublimeLinter",*/
 /*"LSP-jdtls",*/
 /*"LSP-typescript",*/
+/*"Formatter",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
