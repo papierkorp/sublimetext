@@ -20,6 +20,11 @@
 /*"Jinja2",*/
 /*"SublimeLinter",*/
 /*"LSP-jdtls",*/
+/*"Jinja2",*/
+/*"LSP-jdtls",*/
+/*"Formatter",*/
+/*"Formatter",*/
+/*"LSP-pyright",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
