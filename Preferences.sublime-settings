@@ -7,31 +7,16 @@
 /*"Git Conflict Resolver",*/
 /*"Formatter",*/
 /*"Indent XML",*/
-/*"Indent XML",*/
 /*"HTMLBeautify",*/
-/*"HTMLBeautify",*/
-/*"Formatter",*/
-/*"LSP-pyright",*/
 /*"Ansible",*/
 /*"SublimeLinter-contrib-ansible-lint",*/
 /*"SublimeLinter-lua",*/
-/*"Formatter",*/
 /*"Package Control",*/
 /*"Jinja2",*/
 /*"SublimeLinter",*/
 /*"LSP-jdtls",*/
-<<<<<<< HEAD
-/*"Jinja2",*/
-/*"LSP-jdtls",*/
-/*"Formatter",*/
-/*"Formatter",*/
 /*"LSP-pyright",*/
-=======
 /*"LSP-typescript",*/
-/*"Formatter",*/
-/*"Formatter",*/
-/*"Terminus",*/
->>>>>>> b5c939d2acd9a36d9781a5fe1c3eff6366c71e67
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
