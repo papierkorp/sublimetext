@@ -17,6 +17,8 @@
 /*"LSP-jdtls",*/
 /*"LSP-pyright",*/
 /*"LSP-typescript",*/
+/*"Formatter",*/
+/*"Package Control",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
