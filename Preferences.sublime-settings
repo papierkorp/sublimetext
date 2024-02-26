@@ -19,6 +19,7 @@
 /*"LSP-typescript",*/
 /*"Formatter",*/
 /*"Package Control",*/
+/*"BracketHighlighter",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
