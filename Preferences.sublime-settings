@@ -1,6 +1,6 @@
 {
   "color_scheme": "Monokai.sublime-color-scheme",
-  "font_size": 13,
+  "font_size": 12,
   "ignored_packages": [
     //"Vintage",
 /*"Terminus",*/
@@ -20,8 +20,13 @@
 /*"Formatter",*/
 /*"Package Control",*/
 /*"Package Control",*/
-/*"Package Control",*/
+/*"BracketHighlighter",*/
 /*"Formatter",*/
+/*"Package Control",*/
+/*"LSP-pyright",*/
+/*"Formatter",*/
+/*"SideBarEnhancements",*/
+/*"LSP-pyright",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
