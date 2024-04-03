@@ -33,6 +33,7 @@
 /*"Formatter",*/
 /*"LSP-pyright",*/
 /*"BracketHighlighter",*/
+/*"Formatter",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
