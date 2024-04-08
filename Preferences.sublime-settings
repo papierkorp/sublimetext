@@ -35,6 +35,7 @@
 /*"BracketHighlighter",*/
 /*"Formatter",*/
 /*"LSP-json",*/
+/*"Package Control",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
