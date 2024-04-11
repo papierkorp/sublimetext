@@ -37,6 +37,7 @@
 /*"LSP-json",*/
 /*"Package Control",*/
 /*"Formatter",*/
+/*"LSP-pyright",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
