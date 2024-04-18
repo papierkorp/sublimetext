@@ -41,6 +41,7 @@
 /*"Formatter",*/
 /*"Formatter",*/
 /*"LSP",*/
+/*"LSP-pyright",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
