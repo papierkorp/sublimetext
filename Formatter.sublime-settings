@@ -36,6 +36,12 @@
       "json": {
         "uid": "prettier"
       },
+              "html": {
+            "uid": "prettier",
+            "exclude_syntaxes": {
+                "html": ["markdown"]
+            }
+        },
   }
 
 }

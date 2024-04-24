@@ -4,7 +4,7 @@
     "command": "toggle_terminus_panel",
     "args": {
       "cmd": "wsl",
-      "cwd": "C:\\develop" 
+      "cwd": "C:\\develop"
     }
   },
   {
@@ -12,7 +12,7 @@
     "command": "terminus_open",
     "args": {
       "cmd": "wsl",
-      "cwd": "C:\\develop" 
+      "cwd": "C:\\develop"
     }
   },
   {
@@ -24,16 +24,8 @@
   {
     "keys": ["ctrl+alt+o"],
     //"command": "reindent",
-    "command": "run_format",
-    "args": { "uid": "prettier", "type": "beautifier" }
-    //"args": {"single_line": false}
-  },
-
-    {
-    "keys": ["ctrl+alt+shift+o"],
-    //"command": "reindent",
-    "command": "run_format",
-    "args": { "uid": "shellcheck" }
+    "command": "Auto Format File"
+    //"args": { "uid": "prettier", "type": "beautifier" }
     //"args": {"single_line": false}
   },
 
@@ -78,12 +70,13 @@
     "keys": ["alt+4"],
     "command": "set_layout",
     "args": {
-      "cols": [0.0, 0.5, 1.0], //offers 2 columns 
+      "cols": [0.0, 0.5, 1.0], //offers 2 columns
       "rows": [0.0, 0.5, 1.0], //offers 2 rows
-      "cells": [ //each array is one pane
+      "cells": [
+        //each array is one pane
         [0, 0, 2, 1], //first pane: starts at column 0 (0.0 left) and ends at column 2 (1.0 right) and also start at row 0 (0.0 top) and ends at row 1 ( 0.5 mid)
         [0, 1, 1, 2], //second pane: starts at column 0 (0.0 left) - and ends at column 1 (0.5 mid) and also starts at row 1 (0.5 mid) and ends at row 2 (1.0 bottom)
-        [1, 1, 2, 2], //third pane: starts at column 1 (0.5 mid) and ends at column 2 (1.0 right) and also start at row 1 (0.5 mid) and ends at row 2 (1.0 bottom) 
+        [1, 1, 2, 2] //third pane: starts at column 1 (0.5 mid) and ends at column 2 (1.0 right) and also start at row 1 (0.5 mid) and ends at row 2 (1.0 bottom)
       ]
     }
   },
@@ -94,14 +87,14 @@
     "args": {
       "cols": [0.0, 0.5, 1.0], //offers 2 columns
       "rows": [0.0, 0.5, 1.0], //offers 2 rows
-      "cells": [ //each array is one pane
+      "cells": [
+        //each array is one pane
         [0, 0, 1, 2], //first pane: column 0 - 1, row 0 - 2
         [1, 1, 2, 2], //second pane: column 1 - 2, row 1 - 2
-        [1, 0, 2, 2], //third pane: column 1 - 2, row 0 - 2
+        [1, 0, 2, 2] //third pane: column 1 - 2, row 0 - 2
       ]
     }
   },
-
 
   {
     "keys": ["ctrl+l"],
@@ -123,10 +116,9 @@
 
   // {
   //   "keys": ["ctrl+y"],
-  //   "command": "toggle_setting", 
+  //   "command": "toggle_setting",
   //   "args": {"setting": "word_wrap"}
   // },
-  
 
   {
     "keys": ["ctrl+alt+k"],
