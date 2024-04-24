@@ -2,9 +2,19 @@
   {
     "keys": ["ctrl+e"],
     "command": "toggle_terminus_panel",
-    "args": { "cwd": "$(file_path:${folder}}" }
+    "args": {
+      "cmd": "wsl",
+      "cwd": "C:\\develop" 
+    }
   },
-
+  {
+    "keys": ["ctrl+shift+e"],
+    "command": "terminus_open",
+    "args": {
+      "cmd": "wsl",
+      "cwd": "C:\\develop" 
+    }
+  },
   {
     "keys": ["ctrl+w"],
     "command": "terminus_close",
@@ -16,6 +26,14 @@
     //"command": "reindent",
     "command": "run_format",
     "args": { "uid": "prettier", "type": "beautifier" }
+    //"args": {"single_line": false}
+  },
+
+    {
+    "keys": ["ctrl+alt+shift+o"],
+    //"command": "reindent",
+    "command": "run_format",
+    "args": { "uid": "shellcheck" }
     //"args": {"single_line": false}
   },
 

@@ -2,9 +2,11 @@
 // Pick up items you need, just make sure to maintain the structure.
 {
   "debug": true,
+  "open_console_on_failure": true,
   "formatters": {
     "ktlint": {
       "disable": false,
+      "format_on_save": true,
       "syntaxes": ["kotlin"],
       "executable_path": "C:\\bin\\ktlint\\ktlint.bat"
     },
@@ -15,15 +17,25 @@
       "config_path": {
         "default": "C:\\develop\\space\\leasone\\webapp\\.prettierrc.json",
         "yaml": "${packages}\\User\\formatter.assets\\config\\prettier_rc.json"
-      }
+      },
+      "executable_path": "C:\\Users\\Markus\\AppData\\Roaming\\npm\\prettier.cmd"
     },
     "shellcheck": {
       "disable": false,
+      "enable": true,
       "format_on_save": true,
-      "syntaxes": ["bash", "sh", "bat"]
-    },
-    "json": {
-      "disable": false,
+      "syntaxes": ["bash", "sh", "bat"],
+      "executable_path": "C:\\ProgramData\\chocolatey\\bin\\shellcheck.exe",
     }
+  },
+  "auto_format": {
+      "config": {
+          "format_on_save": true,
+          "format_on_paste": false
+      },
+      "json": {
+        "uid": "prettier"
+      },
   }
+
 }
