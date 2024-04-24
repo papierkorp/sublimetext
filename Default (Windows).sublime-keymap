@@ -24,7 +24,8 @@
   {
     "keys": ["ctrl+alt+o"],
     //"command": "reindent",
-    "command": "Auto Format File"
+    //"command": "run_format",
+    "command": "auto_format_file"
     //"args": { "uid": "prettier", "type": "beautifier" }
     //"args": {"single_line": false}
   },
