@@ -2,13 +2,14 @@
 // Pick up items you need, just make sure to maintain the structure.
 {
   "debug": true,
-  "open_console_on_failure": true,
+  "open_console_on_failure": false,
   "formatters": {
     "ktlint": {
       "enable": true,
       "disable": false,
       "format_on_save": true,
-      "syntaxes": ["kotlin"],
+      "syntaxes": ["kotlin", "Kotlin/Kotlin", "Kotlin", "kt", "kts"],
+      "interpreter_path": "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
       "executable_path": "C:\\bin\\ktlint\\ktlint.bat"
     },
     "prettier": {
@@ -63,6 +64,12 @@
     },
     "bash": {
       "uid": "shellcheck"
+    },
+    "kotlin": {
+      "uid": "ktlint"
+    },
+    "yaml": {
+      "uid": "prettier"
     }
   }
 }

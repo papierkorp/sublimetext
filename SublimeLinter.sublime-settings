@@ -1,8 +1,13 @@
 // SublimeLinter Settings - User
 {
   // "debug": true,
-
+  "statusbar.messages_template": "{linter}-{code}-{message}",
   "linters": {
+    "ktlint": {
+      "disable": false,
+      "executable": "C:\\bin\\ktlint\\ktlint.bat",
+      "selector": "source.Kotlin, Kotlin/Kotlin"
+    },
     "htmlhint": {
       "disable": false,
       "excludes": "*.md",
@@ -11,6 +16,7 @@
     "yamllint": {
       "disable": true,
       // https://yamllint.readthedocs.io/en/latest/rules.html
+      "selector": "source.yaml",
       "d": "extends: default\nrules: { line-length: { max: 12000 }, min-spaces-from-content: 0 }"
     },
     "stylelint": {
