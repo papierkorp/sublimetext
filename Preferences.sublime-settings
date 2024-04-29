@@ -45,6 +45,7 @@
 /*"Formatter",*/
 /*"LSP",*/
 /*"LSP-bash",*/
+/*"MarkdownEditing",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
