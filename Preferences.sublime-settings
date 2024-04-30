@@ -45,11 +45,7 @@
 /*"Formatter",*/
 /*"LSP",*/
 /*"LSP-bash",*/
-    "Formatter",
-    "Kotlin",
-    "SSH Config",
-    "SublimeLinter-contrib-htmlhint",
-    "SublimeLinter-lua",
+/*"MarkdownEditing",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,

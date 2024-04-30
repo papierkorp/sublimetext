@@ -45,31 +45,31 @@
       "executable_path": "C:\\ProgramData\\chocolatey\\bin\\shellcheck.exe"
     }
   },
-  "auto_format": {
-    "config": {
-      "format_on_save": true,
-      "format_on_paste": false
-    },
-    "json": {
-      "uid": "prettier"
-    },
-    "javascript": {
-      "uid": "prettier"
-    },
-    "html": {
-      "uid": "prettier",
-      "exclude_syntaxes": {
-        "html": ["markdown"]
-      }
-    },
-    "bash": {
-      "uid": "shellcheck"
-    },
-    "kotlin": {
-      "uid": "ktlint"
-    },
-    "yaml": {
-      "uid": "prettier"
-    }
-  }
+  // "auto_format": {
+  //   "config": {
+  //     "format_on_save": true,
+  //     "format_on_paste": false
+  //   },
+  //   "json": {
+  //     "uid": "prettier"
+  //   },
+  //   "javascript": {
+  //     "uid": "prettier"
+  //   },
+  //   "html": {
+  //     "uid": "prettier",
+  //     "exclude_syntaxes": {
+  //       "html": ["markdown"]
+  //     }
+  //   },
+  //   "bash": {
+  //     "uid": "shellcheck"
+  //   },
+  //   "kotlin": {
+  //     "uid": "ktlint"
+  //   },
+  //   "yaml": {
+  //     "uid": "prettier"
+  //   }
+  // }
 }
