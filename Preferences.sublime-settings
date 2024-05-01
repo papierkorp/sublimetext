@@ -46,6 +46,12 @@
 /*"LSP",*/
 /*"LSP-bash",*/
 /*"MarkdownEditing",*/
+/*"SublimeLinter",*/
+/*"Golang",*/
+/*"LSP-gopls",*/
+/*"Gomod",*/
+/*"Golang",*/
+/*"SublimeLinter-contrib-staticcheck",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
