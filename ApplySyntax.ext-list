@@ -5,8 +5,9 @@
 		"ash",
 		"bash",
 		"bashrc",
+		"bat",
 		"sh",
-		"zsh"
+		"zsh",
 	],
 	/*"HAML":
 	[
@@ -132,7 +133,7 @@
 		".stylelintrc",
 		"geojson"
 	],*/
-	"JSON":
+	/*"JSON":
 	[
 		".babelrc",
 		".bowerrc",
@@ -142,20 +143,18 @@
 		".jshintrc",
 		".stylelintrc",
 		"geojson"
-	],
-	"Python":
+	],*/
+	/*"Python":
 	[
 		"py3",
 		"pyw"
-	],
+	],*/
 	"YAML":
 	[
-		".gemrc",
-		"YAML-tmLanguage",
+		"yaml",
 		"yml",
-		"yml.dist"
 	],
-	"Shell-Unix-Generic":
+	/*"Shell-Unix-Generic":
 	[
 		".profile",
 		"ash",
@@ -163,16 +162,16 @@
 		"bashrc",
 		"sh",
 		"zsh"
-	],
-	"XML":
+	],*/
+	/*"XML":
 	[
 		"xml.dist"
-	],
-	"HAML":
+	],*/
+	/*"HAML":
 	[
 		"haml"
-	],
-	"Ruby":
+	],*/
+	/*"Ruby":
 	[
 		"jbuilder",
 		"podspec",
@@ -181,17 +180,32 @@
 		"rb",
 		"simplecov",
 		"thor"
-	],
-	"PHP":
+	],*/
+	/*"PHP":
 	[
 		"inc",
 		"php3",
 		"php4",
 		"php5",
 		"phtml"
-	],
-	"HTML (Rails)":
+	],*/
+	/*"HTML (Rails)":
 	[
 		"html.erb"
+	],*/
+	"GenericConfig":
+	[
+		"cfg",
+		"conf",
+		"config"
+	],
+	"Jinja":
+	[
+		"tmpl"
+	],
+	"Markdown":
+	[
+		".txt",
+		"md"
 	],
 }

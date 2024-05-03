@@ -47,6 +47,8 @@
 /*"LSP-bash",*/
 /*"MarkdownEditing",*/
 /*"LSP-pyright",*/
+/*"LSP",*/
+/*"Unicode Character Highlighter",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,

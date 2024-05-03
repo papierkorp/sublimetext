@@ -1,48 +1,85 @@
-
 {
-    // If you want exceptions reraised so you can see them in the console, change this to true.
-    "reraise_exceptions": false,
+  // If you want exceptions reraised so you can see them in the console, change this to true.
+  "reraise_exceptions": false,
 
-    // If you want to have a syntax applied when new files are created, set new_file_syntax to the name of the syntax
-    // to use.  The format is exactly the same as "syntax" in the rules below. For example, if you want to have a new
-    // file use JavaScript syntax, set new_file_syntax to 'JavaScript'.
-    "new_file_syntax": "Markdown/Markdown",
+  // If you want to have a syntax applied when new files are created, set new_file_syntax to the name of the syntax
+  // to use.  The format is exactly the same as "syntax" in the rules below. For example, if you want to have a new
+  // file use JavaScript syntax, set new_file_syntax to 'JavaScript'.
+  "new_file_syntax": "Markdown/Markdown",
 
-    // Auto add extensions to language settings file in User folder.
-    // Do not manually remove "apply_syntax_extensions" from the settings file.
-    // "extenstions" are ignored by "match": "all" setting.
-    "add_exts_to_lang_settings": true,
+  // Auto add extensions to language settings file in User folder.
+  // Do not manually remove "apply_syntax_extensions" from the settings file.
+  // "extenstions" are ignored by "match": "all" setting.
+  "add_exts_to_lang_settings": true,
 
-    // Control level of logging in the console.
-    // (true|false|"verbose")
-    "debug": true,
+  // Control level of logging in the console.
+  // (true|false|"verbose")
+  "debug": true,
 
-    // Put your custom syntax rules here:
-    "syntaxes": [
-        {
-            "syntax": "zzz A File Icon zzz/aliases/Groovy (Jenkins)",
-            "rules": [{"file_path": ".*\\Jenkinsfile*"}, {"globmatch": "*Jenkinsfile*"}]
-        },
-{
-        "name": "Ansible/Ansible",
-        "rules": [
-          {"file_name": ".*/tasks/.*.yml$"},
-          {"file_name": ".*/handler/.*.yml$"},
-          {"file_name": ".*/*_vars/.*.yml$"},
-          {"file_name": ".*/roles/.*.yml$"},
-          {"file_name": ".*/playbooks/.*.yml$"},
-          {"file_name": ".*/.*ansible.*/.*.yml$"},
-          {"file_name": ".*/tasks/.*.yaml$"},
-          {"file_name": ".*/handler/.*.yaml$"},
-          {"file_name": ".*/*_vars/.*.yaml$"},
-          {"file_name": ".*/roles/.*.yaml$"},
-          {"file_name": ".*/playbooks/.*.yaml$"},
-          {"file_name": ".*/.*ansible.*/.*.yaml$"}
-        ]
-      },
-        {
-            "syntax": "Kotlin/Kotlin",
-            "rules": [{"file_path": ".*\\.kts"}]
-        }
-    ]
+  // Put your custom syntax rules here:
+  "default_syntaxes": [
+    {
+      "syntax": "zzz A File Icon zzz/aliases/Groovy (Jenkins)",
+      "rules": [{ "file_path": ".*\\Jenkinsfile*" }, { "globmatch": "*Jenkinsfile*" }]
+    },
+    {
+      "syntax": "Ansible/Ansible",
+      "rules": [
+        { "file_path": ".*/.*ansible.*/." },
+        { "file_name": ".*/tasks/.*.yml$" },
+        { "file_name": ".*/handler/.*.yml$" },
+        { "file_name": ".*/*_vars/.*.yml$" },
+        { "file_name": ".*/roles/.*.yml$" },
+        { "file_name": ".*/playbooks/.*.yml$" },
+        { "file_name": ".*/.*ansible.*/.*.yml$" },
+        { "file_name": ".*/tasks/.*.yaml$" },
+        { "file_name": ".*/handler/.*.yaml$" },
+        { "file_name": ".*/*_vars/.*.yaml$" },
+        { "file_name": ".*/roles/.*.yaml$" },
+        { "file_name": ".*/playbooks/.*.yaml$" },
+        { "file_name": ".*/.*ansible.*/.*.yaml$" }
+      ]
+    },
+    {
+      "syntax": "Kotlin/Kotlin",
+      "rules": [{ "file_path": ".*\\.kts" }]
+    },
+    {
+      "syntax": "Go/Go",
+      "rules": [{ "file_path": ".*tpl" }]
+    },
+    {
+      "syntax": "Markdown/Markdown",
+      "extensions": [".txt", "md"]
+    },
+    {
+      "syntax": "PlainTasks/PlainTasks",
+      "rules": [{ "file_path": ".*todo.txt" }]
+    },
+    {
+      "syntax": "Git Formats/Git Config",
+      "rules": [{ "file_path": ".*\\gitconfig*" }]
+    },
+    {
+      "syntax": "Generic Config/GenericConfig",
+      "extensions": ["config", "conf", "cfg"]
+      //"rules": [{"file_path": ".*conf*",},],
+    },
+    {
+      "syntax": "YAML/YAML",
+      "extensions": ["yaml", "yml"]
+    },
+    {
+      "syntax": "Ansible/Ansible",
+      "rules": [{ "file_path": "*.ansible.*" }]
+    },
+    {
+      "syntax": "Jinja2/resources/syntax/Jinja",
+      "extensions": ["tmpl"]
+    },
+    {
+      "syntax": "ShellScript/Bash",
+      "extensions": ["sh", "bash", "bat"]
+    }
+  ]
 }

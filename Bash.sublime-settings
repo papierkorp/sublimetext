@@ -1,5 +1,8 @@
 {
 	"extensions":
 	[
+		"sh",
+		"bat",
+		"bash",
 	],
 }

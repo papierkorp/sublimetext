@@ -8,14 +8,19 @@
       "selector": "source.gdscript"
     },
     "kotlinls": {
-            "enabled": true,
-            "command": ["C:\\bin\\kotlin-lsp\\bin\\kotlin-language-server.bat"],
-            "selector": "source.Kotlin",
-            "settings": {
-                "kotlin": {
-                    // put your server settings here
-                }
-            }
+      "enabled": true,
+      "command": ["C:\\bin\\kotlin-lsp\\bin\\kotlin-language-server.bat"],
+      "selector": "source.Kotlin",
+      "settings": {
+        "kotlin": {
+          // put your server settings here
         }
+      }
+    },
+    "ansible": {
+      "enabled": true,
+      "command": ["C:\\Users\\Markus\\AppData\\Roaming\\npm\\ansible-language-server.cmd"],
+      "selector": "source.ansible"
+    }
   }
 }

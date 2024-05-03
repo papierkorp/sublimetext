@@ -1,2 +1,7 @@
 {
+	"extensions":
+	[
+		".txt",
+		"md"
+	],
 }
