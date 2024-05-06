@@ -49,6 +49,7 @@
 /*"LSP-pyright",*/
 /*"LSP",*/
 /*"Unicode Character Highlighter",*/
+/*"LSP-json",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
