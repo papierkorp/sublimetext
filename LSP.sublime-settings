@@ -12,6 +12,23 @@
       "command": ["C:\\bin\\kotlin-lsp\\bin\\kotlin-language-server.bat"],
       "selector": "source.Kotlin",
       "settings": {
+          "kotlin": {
+              // put your server settings here
+          }
+      }
+    },
+    "gopls": {
+      "enabled": true,
+      "env": {
+        "PATH": "C:\\Program Files\\Go\\bin\\go.exe"
+      },
+      // Recommended by https://agniva.me/gopls/2021/01/02/setting-up-gopls-sublime.html
+      // except log_stderr mentioned there is no longer recognized.
+      "show_references_in_quick_panel": true,
+      "log_debug": true,
+      // These two are recommended by LSP-json as replacement for deprecated only_show_lsp_completions
+      "inhibit_snippet_completions": true,
+        "inhibit_word_completions": true,
         "kotlin": {
           // put your server settings here
         }
