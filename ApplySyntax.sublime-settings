@@ -25,7 +25,7 @@
     {
       "syntax": "Ansible/Ansible",
       "rules": [
-        { "file_path": ".*/.*ansible.*/." },
+        // { "file_path": ".*/.*ansible.*/." },
         { "file_name": ".*/tasks/.*.yml$" },
         { "file_name": ".*/handler/.*.yml$" },
         { "file_name": ".*/*_vars/.*.yml$" },

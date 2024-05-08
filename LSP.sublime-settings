@@ -5,22 +5,22 @@
       "enabled": false,
       "command": ["C:\\Users\\Markus\\Documents\\godot\\Godot_v4.1.2-stable_win64.exe"],
       "tcp_port": 6008,
-      "selector": "source.gdscript"
+      "selector": "source.gdscript",
     },
     "kotlinls": {
-      "enabled": true,
+      "enabled": false,
       "command": ["C:\\bin\\kotlin-lsp\\bin\\kotlin-language-server.bat"],
       "selector": "source.Kotlin",
       "settings": {
-          "kotlin": {
-              // put your server settings here
-          }
-      }
+        "kotlin": {
+          // put your server settings here
+        },
+      },
     },
     "gopls": {
       "enabled": true,
       "env": {
-        "PATH": "C:\\Program Files\\Go\\bin\\go.exe"
+        "PATH": "C:\\Program Files\\Go\\bin\\go.exe",
       },
       // Recommended by https://agniva.me/gopls/2021/01/02/setting-up-gopls-sublime.html
       // except log_stderr mentioned there is no longer recognized.
@@ -28,16 +28,22 @@
       "log_debug": true,
       // These two are recommended by LSP-json as replacement for deprecated only_show_lsp_completions
       "inhibit_snippet_completions": true,
-        "inhibit_word_completions": true,
-        "kotlin": {
-          // put your server settings here
-        }
-      }
+      "inhibit_word_completions": true,
+      "kotlin": {
+        // put your server settings here
+      },
     },
     "ansible": {
-      "enabled": true,
-      "command": ["C:\\Users\\Markus\\AppData\\Roaming\\npm\\ansible-language-server.cmd"],
-      "selector": "source.ansible"
-    }
-  }
+      "enabled": false,
+      "command": ["C:\\Users\\Markus\\AppData\\Roaming\\npm\\ansible-language-server.cmd", "--stdio"],
+      "selector": "source.ansible",
+      "settings": {
+        "validation": {
+          "lint": {
+            "enabled": false,
+          },
+        },
+      },
+    },
+  },
 }
