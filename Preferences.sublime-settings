@@ -58,6 +58,7 @@
 /*"SublimeLinter-contrib-staticcheck",*/
 /*"Gomod",*/
 /*"Sass",*/
+/*"Formatter",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
