@@ -60,6 +60,7 @@
 /*"Sass",*/
 /*"Formatter",*/
 /*"LSP-pyright",*/
+/*"SublimeLinter-eslint",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
