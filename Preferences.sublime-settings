@@ -63,6 +63,7 @@
 /*"SublimeLinter-eslint",*/
 /*"LSP-pyright",*/
 /*"Package Control",*/
+/*"LSP-bash",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
