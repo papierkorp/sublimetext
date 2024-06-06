@@ -65,6 +65,7 @@
 /*"Package Control",*/
 /*"LSP-bash",*/
 /*"LSP-pyright",*/
+/*"LSP-pyright",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
