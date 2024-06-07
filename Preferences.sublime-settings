@@ -66,6 +66,7 @@
 /*"LSP-bash",*/
 /*"LSP-pyright",*/
 /*"LSP-pyright",*/
+/*"Formatter",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
