@@ -1,5 +1,6 @@
 {
   "show_inlay_hints": true,
+  "log_debug": true,
   "clients": {
     "godot-lsp": {
       "enabled": false,
@@ -44,6 +45,20 @@
           },
         },
       },
+    },
+    "helm-ls": {
+      "enabled": false,
+      "command": ["C:\\bin\\helm\\helm_ls_windows_amd64.exe"],
+      "selector": "source.yaml.jinja",
+      "settings": {
+        "helm-ls": {
+          "logLevel": "info",
+        },
+        "yamlls": {
+          "enabled": false,
+          "diagnosticsLimit": 0,
+        },
+      }
     },
   },
 }

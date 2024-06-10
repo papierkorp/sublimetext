@@ -126,7 +126,10 @@
     "command": "lsp_show_diagnostics_panel",
     "context": [{ "key": "setting.lsp_active" }]
   },
-
+  {
+    "keys": ["ctrl+alt+h"],
+    "command": "lsp_toggle_server_panel"
+  },
   { "keys": ["ctrl+q"], "command": "toggle_side_bar" },
   { "keys": ["ctrl+tab"], "command": "next_view" },
   { "keys": ["ctrl+shift+tab"], "command": "prev_view" },

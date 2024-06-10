@@ -41,7 +41,7 @@
     },
     "lua": {
       "disable": false,
-    },
+    }
   },
 
   "paths": {
