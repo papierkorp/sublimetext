@@ -36,8 +36,9 @@
       "args": ["--config", "C:\\develop\\space\\leasone\\webapp\\.eslintrc.js"]
     },
     "ansible-lint": {
-      "disable": false,
-      "selector": "Ansible/Ansible"
+      "disable": true,
+      "selector": "Ansible/Ansible",
+      "executable": "C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\ansible-lint.exe"
     },
     "lua": {
       "disable": false,
