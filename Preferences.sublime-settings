@@ -77,6 +77,8 @@
 /*"Formatter",*/
 /*"Dockerfile Syntax Highlighting",*/
 /*"LSP-dockerfile",*/
+/*"LSP",*/
+/*"YamlPipelines",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
