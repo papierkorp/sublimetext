@@ -33,6 +33,10 @@
         "yml",
         "ansible"
       ],
+      "exclude_syntaxes": [
+        "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile",
+        "Dockerfile"
+      ],
       "config_path": {
         "default": "C:\\develop\\space\\leasone\\webapp\\.prettierrc.json",
         "yaml": "${packages}\\User\\formatter.assets\\config\\prettier_rc.json"
@@ -45,6 +49,17 @@
       "format_on_save": true,
       "syntaxes": ["bash", "sh", "bat"],
       "executable_path": "C:\\ProgramData\\chocolatey\\bin\\shellcheck.exe"
+    },
+    "dockfmt": {
+      "info": "https://github.com/jessfraz/dockfmt",
+      "enable": true,
+      "format_on_save": true,
+      "syntaxes": [
+        "dockerfile",
+        "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile",
+        "Dockerfile"
+      ],
+      "executable_path": ["C:\\Program Files\\Go\\bin\\gofmt.exe"]
     }
   },
   "auto_format": {
@@ -82,11 +97,14 @@
     "Ansible": {
       "uid": "prettier"
     },
+    "Dockerfile": {
+      "uid": "dockfmt"
+    },
     "text": {
-      "format_on_save": false,
+      "format_on_save": false
     },
     "default": {
-      "format_on_save": false,
+      "format_on_save": false
     }
   }
 }

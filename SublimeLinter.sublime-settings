@@ -28,7 +28,10 @@
       "selector": "Dockerfile"
     },
     "shellcheck": {
-      "disable": false
+      "disable": false,
+      "excludes": [
+        ".gitlab-ci.yml"
+      ]
     },
     "eslint": {
       "disable": false,

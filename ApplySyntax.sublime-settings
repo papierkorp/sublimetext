@@ -41,6 +41,15 @@
       "extensions": ["sh", "bash", "bat"]
     },
     {
+      "syntax": "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile",
+      "rules": [
+        //{ "file_path": ".*docker.*" },
+        { "file_path": ".*/Dockerfile.*" },
+        // { "file_path": ".*/docker-compose.*" },
+        // { "file_path": ".*/dockercompose.*" },
+      ]
+    },
+    {
       "syntax": "Ansible/Ansible",
       "rules": [
         { "file_name": ".*/tasks/.*.yml$" },
