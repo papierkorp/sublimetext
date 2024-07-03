@@ -81,6 +81,7 @@
 /*"YamlPipelines",*/
 /*"LSP-pyright",*/
 /*"Formatter",*/
+/*"LSP-dockerfile",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,

@@ -38,7 +38,7 @@
         "Dockerfile"
       ],
       "config_path": {
-        "default": "C:\\develop\\space\\leasone\\webapp\\.prettierrc.json",
+        "default": "C:\\develop\\gitlab\\leasone\\webapp\\.prettierrc.json",
         "yaml": "${packages}\\User\\formatter.assets\\config\\prettier_rc.json"
       },
       "executable_path": "C:\\Users\\Markus\\AppData\\Roaming\\npm\\prettier.cmd"
