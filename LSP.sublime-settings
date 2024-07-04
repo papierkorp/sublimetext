@@ -1,6 +1,7 @@
 {
   "show_inlay_hints": true,
   "log_debug": true,
+  "show_code_actions": "bulb",
   "clients": {
     "godot-lsp": {
       "enabled": false,
