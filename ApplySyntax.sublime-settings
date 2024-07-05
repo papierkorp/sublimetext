@@ -17,6 +17,10 @@
       "rules": [{ "file_path": ".*tpl" }]
     },
     {
+      "syntax": "Go/HTML (Go)",
+      "rules": [{ "file_path": ".*templ" }]
+    },
+    {
       "syntax": "Jinja2/resources/syntax/Jinja",
       "extensions": ["tmpl"]
     },
