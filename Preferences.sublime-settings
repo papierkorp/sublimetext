@@ -82,6 +82,9 @@
 /*"LSP-pyright",*/
 /*"Formatter",*/
 /*"LSP-dockerfile",*/
+/*"LSP-yaml",*/
+/*"Gofmt",*/
+/*"Gofmt",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,

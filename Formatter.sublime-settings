@@ -33,10 +33,7 @@
         "yml",
         "ansible"
       ],
-      "exclude_syntaxes": [
-        "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile",
-        "Dockerfile"
-      ],
+      "exclude_syntaxes": ["Dockerfile Syntax Highlighting/Syntaxes/Dockerfile", "Dockerfile", "Go/Go", "go"],
       "config_path": {
         "default": "C:\\develop\\gitlab\\leasone\\webapp\\.prettierrc.json",
         "yaml": "${packages}\\User\\formatter.assets\\config\\prettier_rc.json"
@@ -54,12 +51,16 @@
       "info": "https://github.com/jessfraz/dockfmt",
       "enable": true,
       "format_on_save": true,
-      "syntaxes": [
-        "dockerfile",
-        "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile",
-        "Dockerfile"
-      ],
+      "syntaxes": ["dockerfile", "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile", "Dockerfile"],
       "executable_path": ["C:\\Program Files\\Go\\bin\\gofmt.exe"]
+    },
+    "gofmt": {
+      "info": "https://pkg.go.dev/cmd/gofmt",
+      "enable": true,
+      "format_on_save": true,
+      "syntaxes": ["go"],
+      "executable_path": ["C:\\Program Files\\Go\\bin"]
+      /* opinionated, no config */
     }
   },
   "auto_format": {
@@ -99,6 +100,9 @@
     },
     "Dockerfile": {
       "uid": "dockfmt"
+    },
+    "go": {
+      "uid": "gofmt"
     },
     "text": {
       "format_on_save": false

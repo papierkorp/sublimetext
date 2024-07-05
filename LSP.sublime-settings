@@ -28,6 +28,7 @@
       // except log_stderr mentioned there is no longer recognized.
       "show_references_in_quick_panel": true,
       "log_debug": true,
+      "selector": "source.go",
       // These two are recommended by LSP-json as replacement for deprecated only_show_lsp_completions
       "inhibit_snippet_completions": true,
       "inhibit_word_completions": true,
