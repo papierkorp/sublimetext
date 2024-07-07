@@ -85,6 +85,11 @@
 /*"LSP-yaml",*/
 /*"Gofmt",*/
 /*"Gofmt",*/
+/*"LSP-yaml",*/
+/*"Unicode Character Highlighter",*/
+/*"GoImports",*/
+/*"GoImports",*/
+/*"Formatter",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
