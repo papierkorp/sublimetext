@@ -92,6 +92,8 @@
 /*"Formatter",*/
 /*"SublimeLinter-eslint",*/
 /*"LSP-bash",*/
+/*"LSP-bash",*/
+/*"Formatter",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
