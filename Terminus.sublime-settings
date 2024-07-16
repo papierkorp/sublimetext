@@ -3,7 +3,7 @@
         {
             "name": "WSL",
             "cmd": ["wsl"],
-            "default": false,
+            "default": true,
             "enable": true,
             "env": {},
             "platforms": ["windows"]
