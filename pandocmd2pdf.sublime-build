@@ -1,0 +1,7 @@
+{
+    "target": "wsl_exec",
+    "cancel": {"kill": true},
+    // "wsl_cmd": "whoami && pwd && cat /etc/os-release",
+    "wsl_cmd": "echo $file_path $unix_file_path/$file_base_name.pdf && /usr/local/pandoc-3.2.1/bin/pandoc --verbose --pdf-engine=xelatex --citeproc -o '$file_base_name.pdf' '$file_name' && explorer.exe $(wslpath -w $unix_file_path); explorer.exe $(wslpath -w $unix_file_path/$file_base_name.pdf)",
+    "wsl_working_dir": "$unix_file_path"
+}

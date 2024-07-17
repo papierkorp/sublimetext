@@ -35,7 +35,6 @@
 		"LSP-pyright",
 		"LSP-typescript",
 		"Markdown Extended",
-		"Markdown Images",
 		"MarkdownEditing",
 		"MarkdownPreview",
 		"MarkdownTOC",
@@ -63,6 +62,7 @@
 		"Theme - Spacegray",
 		"Unicode Character Highlighter",
 		"View Bookmarks",
+		"WslBuild",
 		"YamlPipelines",
 	],
 }
