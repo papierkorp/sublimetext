@@ -5,6 +5,10 @@
   "debug": true,
   "default_syntaxes": [
     {
+      "syntax": "YAML/YAML",
+      "extensions": ["yaml", "yml", "sublime-syntax"]
+    },
+    {
       "syntax": "zzz A File Icon zzz/aliases/Groovy (Jenkins)",
       "rules": [{ "file_path": ".*\\Jenkinsfile*" }, { "globmatch": "*Jenkinsfile*" }]
     },
@@ -17,7 +21,7 @@
       "rules": [{ "file_path": ".*tpl" }]
     },
     {
-      "syntax": "Go/HTML (Go)",
+      "syntax": "Templ/Templ",
       "rules": [{ "file_path": ".*templ" }]
     },
     {

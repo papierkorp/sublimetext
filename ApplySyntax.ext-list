@@ -221,8 +221,9 @@
 	],*/
 	"YAML":
 	[
+		"sublime-syntax",
 		"yaml",
-		"yml"
+		"yml",
 	],
 	/*"GenericConfig":
 	[
