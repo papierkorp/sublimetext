@@ -5,6 +5,10 @@
   "debug": true,
   "default_syntaxes": [
     {
+      "syntax": "Python/Python",
+      "extensions": ["py"]
+    },
+    {
       "syntax": "YAML/YAML",
       "extensions": ["yaml", "yml", "sublime-syntax"]
     },
@@ -21,7 +25,7 @@
       "rules": [{ "file_path": ".*tpl" }]
     },
     {
-      "syntax": "Templ/Templ",
+      "syntax": "Templtest/Templtest",
       "rules": [{ "file_path": ".*templ" }]
     },
     {

@@ -112,6 +112,8 @@
     },
     "go": {
       "uid": "gofmt",
+      "exclude_syntaxes": ["templtest", "templ"],
+      "exclude_extensions": ["templ"],
     },
     "Gomod": {
       "uid": "gofmt",
