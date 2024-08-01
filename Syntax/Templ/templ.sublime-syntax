@@ -2,7 +2,7 @@
 ---
 name: templ
 file_extensions: [templ]
-scope: source.templ
+scope: source.go
 extends: Packages/Go/Go.sublime-syntax
 version: 2
 
@@ -17,11 +17,13 @@ contexts:
     - match: \btempl\s+([[:alpha:]_][[:alnum:]_].*)
       scope: keyword.declaration.templ
       push: templ-content
-    # - match: \n}\n\n
-    #   pop: true
 
   templ-content:
     - meta_content_scope: meta.function.templ
+    - match: \n}\n\n
+      pop: true
+    - match: (?=\n}\n)
+      pop: true
     - include: html-content
     - include: Packages/Go/Go.sublime-syntax#statements
 
@@ -29,11 +31,18 @@ contexts:
     - match: <(?!\/)
       scope: punctuation.definition.tag.begin.html
       push: html-tag
+    - match: <\/[^>]+>(?!.*<\/[^>]+>) # match the last > if it starts with </
+      scope: punctuation.definition.tag.end.html
+      pop: true
 
   html-tag:
-    - meta_scope: meta.tag.block.any.html
-    - include: Packages/HTML/HTML.sublime-syntax#tag-attributes
-    - match: <(?!\/)
+    - meta_scope: meta.tag.block.any.html text.html.basic
+    - include: Packages/HTML/HTML.sublime-syntax
+      scope: text.html.basic
+    - match: '>'
+      scope: punctuation.definition.tag.end.html
+      pop: true
+    - match: '/>'
       scope: punctuation.definition.tag.end.html
       pop: true
 
