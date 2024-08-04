@@ -23,7 +23,7 @@
       "enabled": true,
       "env": {
         "PATH": "C:\\Program Files\\Go\\bin\\go.exe",
-        "TEMPL_EXPERIMENT": "rawgo"
+        "TEMPL_EXPERIMENT": "rawgo",
       },
       // Recommended by https://agniva.me/gopls/2021/01/02/setting-up-gopls-sublime.html
       // except log_stderr mentioned there is no longer recognized.
@@ -36,7 +36,10 @@
     },
     "ansible": {
       "enabled": false,
-      "command": ["C:\\Users\\Markus\\AppData\\Roaming\\npm\\ansible-language-server.cmd", "--stdio"],
+      "command": [
+        "C:\\Users\\Markus\\AppData\\Roaming\\npm\\ansible-language-server.cmd",
+        "--stdio",
+      ],
       "selector": "source.ansible",
       "settings": {
         "validation": {
@@ -58,7 +61,7 @@
           "enabled": false,
           "diagnosticsLimit": 0,
         },
-      }
+      },
     },
   },
 }

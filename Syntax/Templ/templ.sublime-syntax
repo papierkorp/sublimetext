@@ -1,62 +1,53 @@
 %YAML 1.2
 ---
-name: templ
+name: Templ
 file_extensions: [templ]
-scope: source.go
+scope: source.go.templ
 extends: Packages/Go/Go.sublime-syntax
 version: 2
 
 contexts:
-  prototype: # prototype/main
+  prototype:
     - include: match-templ
-
-  statements:
-    - meta_prepend: true
 
   match-templ:
     - match: \btempl\s+([[:alpha:]_][[:alnum:]_].*)
       scope: keyword.declaration.templ
-      push: templ-content
+      push:
+        - meta_scope: meta.templ.block
+          scope: text.html.basic
+        - include: templ-content
+        - match: '^}$'
+          scope: punctuation.section.block.end.templ
+          pop: true
 
   templ-content:
-    - meta_content_scope: meta.function.templ
-    - match: \n}\n\n
-      pop: true
-    - match: (?=\n}\n)
-      pop: true
-    - include: html-content
-    - include: Packages/Go/Go.sublime-syntax#statements
+    - include: match-go
+    - include: scope:text.html.basic
 
-  html-content:
-    - match: <(?!\/)
-      scope: punctuation.definition.tag.begin.html
-      push: html-tag
-    - match: <\/[^>]+>(?!.*<\/[^>]+>) # match the last > if it starts with </
-      scope: punctuation.definition.tag.end.html
-      pop: true
+  match-go:
+    - match: '{{'
+      scope: punctuation.section.embedded.begin.go
+      push: go-embedded
+    - match: '{'
+      scope: punctuation.section.embedded.begin.go
+      push: go-embedded
+    - match: '@'
+      scope: punctuation.section.embedded.begin.go
+      push: go-embedded
 
-  html-tag:
-    - meta_scope: meta.tag.block.any.html text.html.basic
-    - include: Packages/HTML/HTML.sublime-syntax
-      scope: text.html.basic
-    - match: '>'
-      scope: punctuation.definition.tag.end.html
-      pop: true
-    - match: '/>'
-      scope: punctuation.definition.tag.end.html
-      pop: true
+  go-embedded:
+    - meta_scope: source.go.embedded
+    - include: pop-go
+    - include: Packages/Go/Go.sublime-syntax
 
-    # - match: \{
-    #   embed: scope:source.go
-    #   escape: \}
-    #   scope: punctuation.section.block.begin.test
-    # - match: \{{
-    #   scope: punctuation.section.block.begin.test
-    # - match: '@'
-    #   scope: punctuation.section.block.begin.test
-    # - match: \}
-    #   scope: punctuation.section.block.end.test
-    #   pop: true
-    # - match: \}}
-    #   scope: punctuation.section.block.end.test
-    #   pop: true
+  pop-go:
+    - match: '}}'
+      scope: punctuation.section.embedded.end.go
+      pop: true
+    - match: '}'
+      scope: punctuation.section.embedded.end.go
+      pop: true
+    - match: '{' # for the @
+      scope: punctuation.section.embedded.end.go
+      pop: true

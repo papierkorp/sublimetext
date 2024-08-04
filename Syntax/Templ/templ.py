@@ -2,9 +2,10 @@ import sublime
 import sublime_plugin
 import re
 
+
 class TemplCompletions(sublime_plugin.EventListener):
     def on_query_completions(self, view, prefix, locations):
-        if not view.match_selector(locations[0], "source.templ"):
+        if not view.match_selector(locations[0], "source.go.templ"):
             return []
 
         completions = [
@@ -33,10 +34,4 @@ class TemplCompletions(sublime_plugin.EventListener):
 class TemplSyntaxListener(sublime_plugin.EventListener):
     def on_load(self, view):
         if view.file_name() and view.file_name().endswith('.templ'):
-            view.set_syntax_file('Packages/User/Syntax/Templ/Templ.sublime-syntax')
-
-def plugin_loaded():
-    sublime.load_settings("Templ.sublime-settings")
-
-def plugin_unloaded():
-    sublime.save_settings("Templ.sublime-settings")
+            view.set_syntax_file('Packages/User/Syntax/templ.sublime-syntax')
