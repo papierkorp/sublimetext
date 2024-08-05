@@ -10,7 +10,7 @@
       "format_on_save": true,
       "syntaxes": ["kotlin", "Kotlin/Kotlin", "Kotlin", "kt", "kts"],
       "interpreter_path": "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
-      "executable_path": "C:\\bin\\ktlint\\ktlint.bat",
+      "executable_path": "C:\\bin\\ktlint\\ktlint.bat"
     },
     "prettier": {
       "enable": true,
@@ -31,98 +31,95 @@
         "vue",
         "yaml",
         "yml",
-        "ansible",
+        "ansible"
       ],
-      "exclude_syntaxes": [
-        "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile",
-        "Dockerfile",
-        "Go/Go",
-        "go",
-      ],
+      "exclude_syntaxes": ["Dockerfile Syntax Highlighting/Syntaxes/Dockerfile", "Dockerfile", "Go/Go", "go"],
       "config_path": {
         "default": "C:\\develop\\gitlab\\leasone\\webapp\\.prettierrc.json",
-        "yaml": "${packages}\\User\\formatter.assets\\config\\prettier_rc.json",
+        "yaml": "${packages}\\User\\formatter.assets\\config\\prettier_rc.json"
       },
-      "executable_path": "C:\\Users\\Markus\\AppData\\Roaming\\npm\\prettier.cmd",
+      "executable_path": "C:\\Users\\Markus\\AppData\\Roaming\\npm\\prettier.cmd"
     },
     "shellcheck": {
       "enable": true,
       "disable": false,
       "format_on_save": true,
       "syntaxes": ["bash", "sh", "bat"],
-      "executable_path": "C:\\ProgramData\\chocolatey\\bin\\shellcheck.exe",
+      "executable_path": "C:\\ProgramData\\chocolatey\\bin\\shellcheck.exe"
     },
     "dockfmt": {
       "info": "https://github.com/jessfraz/dockfmt",
       "enable": true,
       "format_on_save": true,
-      "syntaxes": [
-        "dockerfile",
-        "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile",
-        "Dockerfile",
-      ],
-      "executable_path": ["C:\\Program Files\\Go\\bin\\gofmt.exe"],
+      "syntaxes": ["dockerfile", "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile", "Dockerfile"],
+      "executable_path": ["C:\\Program Files\\Go\\bin\\gofmt.exe"]
     },
     "gofmt": {
       "info": "https://pkg.go.dev/cmd/gofmt",
       "enable": true,
       "format_on_save": true,
       "syntaxes": ["go", "Gomod"],
-      "executable_path": ["C:\\Program Files\\Go\\bin"],
+      "executable_path": ["C:\\Program Files\\Go\\bin"]
       /* opinionated, no config */
-    },
+    }
   },
   "auto_format": {
     "config": {
       "format_on_save": true,
-      "format_on_paste": false,
+      "format_on_paste": false
     },
     "json": {
-      "uid": "prettier",
+      "uid": "prettier"
     },
     "javascript": {
-      "uid": "prettier",
+      "uid": "prettier"
+    },
+    "jsx": {
+      "uid": "prettier"
+    },
+    "typescript": {
+      "uid": "prettier"
     },
     "html": {
       "uid": "prettier",
       "exclude_syntaxes": {
-        "html": ["markdown"],
-      },
+        "html": ["markdown"]
+      }
     },
     "bash": {
-      "uid": "shellcheck",
+      "uid": "shellcheck"
     },
     "kotlin": {
-      "uid": "ktlint",
+      "uid": "ktlint"
     },
     "yaml": {
-      "uid": "prettier",
+      "uid": "prettier"
     },
     "yml": {
-      "uid": "prettier",
+      "uid": "prettier"
     },
     "markdown": {
-      "uid": "prettier",
+      "uid": "prettier"
     },
     "Ansible": {
-      "uid": "prettier",
+      "uid": "prettier"
     },
     "Dockerfile": {
-      "uid": "dockfmt",
+      "uid": "dockfmt"
     },
     "go": {
       "uid": "gofmt",
       "exclude_syntaxes": ["templtest", "templ"],
-      "exclude_extensions": ["templ"],
+      "exclude_extensions": ["templ"]
     },
     "Gomod": {
-      "uid": "gofmt",
+      "uid": "gofmt"
     },
     "text": {
-      "format_on_save": false,
+      "format_on_save": false
     },
     "default": {
-      "format_on_save": false,
-    },
-  },
+      "format_on_save": false
+    }
+  }
 }

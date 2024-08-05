@@ -9,10 +9,10 @@
   },
   {
     "keys": ["ctrl+shift+e"],
-    "command": "terminus_open",
+    "command": "toggle_terminus_panel",
     "args": {
-      "cmd": "wsl",
-      "cwd": "C:\\develop"
+      "cmd": ["cmd.exe", "/k", "%CMDER_ROOT%\\vendor\\init.bat"],
+      "cwd": "${file_path:${folder}}"
     }
   },
   {
