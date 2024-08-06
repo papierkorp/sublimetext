@@ -1,23 +1,31 @@
 // Settings in here override those in "LSP-typescript/LSP-typescript.sublime-settings"
 
 {
+  "configurations": {
+    "Flow": {
+      "scope": "source.js.flow",
+      "flow_types": true,
+      "jsx": true,
+    },
+  },
   "settings": {
     // Javascript inlay hints options.
-    // "javascript.inlayHints.includeInlayEnumMemberValueHints": false,
-    // "javascript.inlayHints.includeInlayFunctionLikeReturnTypeHints": false,
-    // "javascript.inlayHints.includeInlayFunctionParameterTypeHints": false,
-    // "javascript.inlayHints.includeInlayParameterNameHints": "none",
-    // "javascript.inlayHints.includeInlayParameterNameHintsWhenArgumentMatchesName": false,
-    // "javascript.inlayHints.includeInlayPropertyDeclarationTypeHints": false,
-    // "javascript.inlayHints.includeInlayVariableTypeHints": false,
+    "javascript.inlayHints.includeInlayEnumMemberValueHints": true,
+    "javascript.inlayHints.includeInlayFunctionLikeReturnTypeHints": true,
+    "javascript.inlayHints.includeInlayFunctionParameterTypeHints": true,
+    "javascript.inlayHints.includeInlayParameterNameHints": "all",
+    "javascript.inlayHints.includeInlayParameterNameHintsWhenArgumentMatchesName": true,
+    "javascript.inlayHints.includeInlayPropertyDeclarationTypeHints": true,
+    "javascript.inlayHints.includeInlayVariableTypeHints": true,
     // Typescript inlay hints options.
-    // "typescript.inlayHints.includeInlayEnumMemberValueHints": false,
-    // "typescript.inlayHints.includeInlayFunctionLikeReturnTypeHints": false,
-    // "typescript.inlayHints.includeInlayFunctionParameterTypeHints": false,
-    // "typescript.inlayHints.includeInlayParameterNameHints": "none",
-    // "typescript.inlayHints.includeInlayParameterNameHintsWhenArgumentMatchesName": false,
-    // "typescript.inlayHints.includeInlayPropertyDeclarationTypeHints": false,
-    // "typescript.inlayHints.includeInlayVariableTypeHints": false,
+    "typescript.inlayHints.includeInlayEnumMemberValueHints": true,
+    "typescript.inlayHints.includeInlayFunctionLikeReturnTypeHints": true,
+    "typescript.inlayHints.includeInlayFunctionParameterTypeHints": true,
+    "typescript.inlayHints.includeInlayParameterNameHints": "all",
+    "typescript.inlayHints.includeInlayParameterNameHintsWhenArgumentMatchesName": true,
+    "typescript.inlayHints.includeInlayPropertyDeclarationTypeHints": true,
+    "typescript.inlayHints.includeInlayVariableTypeHints": true,
   },
   "enabled": false,
+  "selector": "source.js - source.js.flow, source.jsx, source.ts, source.tsx",
 }

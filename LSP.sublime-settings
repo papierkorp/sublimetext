@@ -36,10 +36,7 @@
     },
     "ansible": {
       "enabled": false,
-      "command": [
-        "C:\\Users\\Markus\\AppData\\Roaming\\npm\\ansible-language-server.cmd",
-        "--stdio",
-      ],
+      "command": ["C:\\Users\\Markus\\AppData\\Roaming\\npm\\ansible-language-server.cmd", "--stdio"],
       "selector": "source.ansible",
       "settings": {
         "validation": {

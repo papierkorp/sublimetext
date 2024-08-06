@@ -29,13 +29,11 @@
     },
     "shellcheck": {
       "disable": false,
-      "excludes": [
-        ".gitlab-ci.yml"
-      ]
+      "excludes": [".gitlab-ci.yml"]
     },
     "eslint": {
       "disable": false,
-      "selector": "source.ts, source.js",
+      "selector": "source.ts, source.js source.jsx source.tsx",
       "args": ["--config", "C:\\develop\\gitlab\\leasone\\webapp\\.eslintrc.js"]
     },
     "ansible-lint": {
@@ -44,7 +42,7 @@
       "executable": "C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\ansible-lint.exe"
     },
     "lua": {
-      "disable": false,
+      "disable": false
     }
   },
 
