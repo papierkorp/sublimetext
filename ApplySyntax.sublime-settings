@@ -14,7 +14,10 @@
     },
     {
       "syntax": "zzz A File Icon zzz/aliases/Groovy (Jenkins)",
-      "rules": [{ "file_path": ".*\\Jenkinsfile*" }, { "globmatch": "*Jenkinsfile*" }],
+      "rules": [
+        { "file_path": ".*\\Jenkinsfile*" },
+        { "globmatch": "*Jenkinsfile*" },
+      ],
     },
     {
       "syntax": "Kotlin/Kotlin",
@@ -23,15 +26,18 @@
     {
       "syntax": "User/JS Custom/Syntaxes/Flow",
       "match": "all",
-      "rules": [{ "file_path": ".*\\.jsx?$" }, { "first_line": "^/[/\\*] *@flow" }],
+      "rules": [
+        { "file_path": ".*\\.jsx?$" },
+        { "first_line": "^/[/\\*] *@flow" },
+      ],
+    },
+    {
+      "syntax": "User/Syntax/templ",
+      "rules": [{ "file_path": ".*templ" }],
     },
     {
       "syntax": "Go/Go",
       "rules": [{ "file_path": ".*tpl" }],
-    },
-    {
-      "syntax": "Templtest/Templtest",
-      "rules": [{ "file_path": ".*templ" }],
     },
     {
       "syntax": "Jinja2/resources/syntax/Jinja",
