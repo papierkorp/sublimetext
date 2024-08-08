@@ -77,7 +77,7 @@
       "name": "Templ",
       "type": "beautifier",
       "enable": true,
-      "format_on_save": false,
+      "format_on_save": true,
       "syntaxes": ["templ", "go.templ"],
       "executable_path": ["cmd"],
       "args": [
@@ -88,14 +88,14 @@
       ],
       ///home/markus/go/bin/templ fmt /mnt/c/develop/gowiki/internal/templates/home.templ
     },
-    // "gofmt": {
-    //   "info": "https://pkg.go.dev/cmd/gofmt",
-    //   "enable": true,
-    //   "format_on_save": true,
-    //   "syntaxes": ["go", "Gomod"],
-    //   "executable_path": ["C:\\Program Files\\Go\\bin"],
-    //   "exclude_syntaxes": ["go.templ", "templ"],
-    // },
+    "gofmt": {
+      "info": "https://pkg.go.dev/cmd/gofmt",
+      "enable": true,
+      "format_on_save": false,
+      "syntaxes": ["go", "Gomod"],
+      "executable_path": ["C:\\Program Files\\Go\\bin"],
+      "exclude_syntaxes": ["go.templ", "templ"],
+    },
   },
   "auto_format": {
     "config": {
@@ -153,40 +153,15 @@
       "format_on_save": true,
       "uid": "dockfmt",
     },
-    "User/Syntax/Templ/templ": {
-      "format_on_save": true,
-      "uid": "templ",
-    },
-    "Packages/User/Syntax/Templ/templ.sublime-syntax": {
-      "format_on_save": true,
-      "uid": "templ",
-    },
-    "User/Syntax/templ": {
-      "format_on_save": true,
-      "uid": "templ",
-    },
-    "go.templ": {
-      "format_on_save": true,
-      "uid": "templ",
-    },
-    "templ": {
-      "format_on_save": true,
-      "uid": "templ",
-    },
-    // "go": {
-    //   "uid": "gofmt",
-    //   "exclude_syntaxes": [
-    //     "User/Syntax/Templ/templ",
-    //     "templ",
-    //     "go.templ",
-    //     "source.go.templ",
-    //     "go",
-    //   ],
-    //   "exclude_extensions": ["templ"],
-    // },
-    "Gomod": {
+    "go": {
       "format_on_save": true,
       "uid": "gofmt",
+      "exclude_extensions_regex": ["templ"],
+      "exclude_files_regex": [".*\\.templ"],
+    },
+    "zzz A File Icon zzz/aliases/JSON (Sublime)": {
+      "format_on_save": true,
+      "uid": "prettier",
     },
   },
 }
