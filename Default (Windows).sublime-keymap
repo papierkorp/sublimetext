@@ -4,7 +4,8 @@
     "command": "toggle_terminus_panel",
     "args": {
       "cmd": "wsl",
-      "cwd": "C:\\develop",
+      // "cwd": "C:\\develop",
+      "cwd": "${file_path:${folder}}",
     },
   },
   {
@@ -98,7 +99,7 @@
   },
 
   {
-    "keys": ["alt+6"],
+    "keys": ["ctrl+q"],
     "command": "chain",
     "args": {
       "commands": [
@@ -148,7 +149,10 @@
   //   "command": "toggle_setting",
   //   "args": {"setting": "word_wrap"}
   // },
-
+  {
+    "keys": ["ctrl+i"],
+    "command": "lsp_code_actions",
+  },
   {
     "keys": ["ctrl+alt+k"],
     "command": "lsp_show_diagnostics_panel",
@@ -158,7 +162,7 @@
     "keys": ["ctrl+alt+h"],
     "command": "lsp_toggle_server_panel",
   },
-  { "keys": ["ctrl+q"], "command": "toggle_side_bar" },
+  { "keys": ["ctrl+t"], "command": "toggle_side_bar" },
   { "keys": ["ctrl+tab"], "command": "next_view" },
   { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
   {

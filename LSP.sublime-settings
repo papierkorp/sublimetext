@@ -1,7 +1,10 @@
 {
   "show_inlay_hints": true,
+  "inhibit_snippet_completions": true,
   "log_debug": true,
-  "show_code_actions": "bulb",
+  "show_code_actions": "annotation",
+  "show_diagnostics_annotations_severity_level": 2,
+  "show_diagnostics_panel_on_save": 1,
   "clients": {
     "godot-lsp": {
       "enabled": false,
