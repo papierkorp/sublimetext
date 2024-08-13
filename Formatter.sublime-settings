@@ -118,6 +118,10 @@
       "format_on_save": true,
       "uid": "prettier",
     },
+    "tsx": {
+      "format_on_save": true,
+      "uid": "prettier",
+    },
     "html": {
       "format_on_save": true,
       "uid": "prettier",
