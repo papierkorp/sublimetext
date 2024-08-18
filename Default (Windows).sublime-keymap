@@ -89,6 +89,51 @@
     "args": { "block": true },
   },
 
+  {
+    "keys": ["ctrl+alt+r"],
+    "command": "lsp_symbol_references",
+  },
+  {
+    "keys": ["ctrl+alt+d"],
+    "command": "lsp_symbol_definition",
+  },
+  {
+    "keys": ["ctrl+alt+space"],
+    "command": "lsp_hover",
+  },
+
+  {
+    "keys": ["ctrl+alt+i"],
+    "command": "lsp_toggle_inlay_hints",
+  },
+
+  // VIM MOTIONS
+  {
+    "keys": ["g", "r"],
+    "command": "lsp_symbol_references",
+    "context": [{ "key": "setting.command_mode" }],
+  },
+  {
+    "keys": ["g", "d"],
+    "command": "lsp_symbol_definition",
+    "context": [{ "key": "setting.command_mode" }],
+  },
+  {
+    "keys": ["g", "h"],
+    "command": "lsp_hover",
+    "context": [{ "key": "setting.command_mode" }],
+  },
+  {
+    "keys": ["g", "a"],
+    "command": "lsp_symbol_rename",
+    "context": [{ "key": "setting.command_mode" }],
+  },
+  {
+    "keys": ["g", "i"],
+    "command": "lsp_toggle_inlay_hints",
+    "context": [{ "key": "setting.command_mode" }],
+  },
+
   //------------------------------------------------
   //---------------------layout---------------------
   //------------------------------------------------
@@ -177,34 +222,6 @@
     },
   },
 
-  //------------------------------------------------
-  //-------------------vim motions-------------------
-  //------------------------------------------------
-  {
-    "keys": ["g", "r"],
-    "command": "lsp_symbol_references",
-    "context": [{ "key": "setting.command_mode" }],
-  },
-  {
-    "keys": ["g", "d"],
-    "command": "lsp_symbol_definition",
-    "context": [{ "key": "setting.command_mode" }],
-  },
-  {
-    "keys": ["g", "h"],
-    "command": "lsp_hover",
-    "context": [{ "key": "setting.command_mode" }],
-  },
-  {
-    "keys": ["g", "a"],
-    "command": "lsp_symbol_rename",
-    "context": [{ "key": "setting.command_mode" }],
-  },
-  {
-    "keys": ["g", "i"],
-    "command": "lsp_toggle_inlay_hints",
-    "context": [{ "key": "setting.command_mode" }],
-  },
   //------------------------------------------------
   //-------------------convenience-------------------
   //------------------------------------------------
