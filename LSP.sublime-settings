@@ -8,7 +8,7 @@
   "clients": {
     "godot-lsp": {
       "enabled": false,
-      "command": ["C:\\Users\\Markus\\Documents\\godot\\Godot_v4.1.2-stable_win64.exe"],
+      "command": ["C:\\develop\\privat\\Godot_v4.3-stable_win64.exe"],
       "tcp_port": 6008,
       "selector": "source.gdscript",
     },
