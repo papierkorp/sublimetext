@@ -2,18 +2,6 @@
   "color_scheme": "Monokai.sublime-color-scheme",
   "font_size": 13,
   "ignored_packages": [
-    // "LSP-html",
-    // "LSP-tailwindcss",
-    // "Vintage",
-/*"Terminus",*/
-/*"Git",*/
-/*"Git",*/
-/*"Formatter",*/
-/*"Formatter",*/
-/*"SublimeLinter",*/
-/*"Formatter",*/
-/*"Formatter",*/
-/*"Formatter",*/
   ],
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
@@ -21,5 +9,5 @@
   "show_encoding": true,
   "translate_tabs_to_spaces": true,
   "index_files": false,
-  "console_max_history_lines": 3000,
+  "console_max_history_lines": 3000
 }

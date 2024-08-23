@@ -8,8 +8,8 @@
   "clients": {
     "godot-lsp": {
       "enabled": false,
-      "command": ["C:\\develop\\privat\\Godot_v4.3-stable_win64.exe"],
-      "tcp_port": 6008,
+      "command": ["C:\\develop\\privat\\godot\\Godot_v4.3-stable_win64.exe"],
+      "tcp_port": 6005,
       "selector": "source.gdscript",
     },
     "kotlinls": {
