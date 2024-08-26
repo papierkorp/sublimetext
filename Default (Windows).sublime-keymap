@@ -226,12 +226,6 @@
   //-------------------convenience-------------------
   //------------------------------------------------
 
-  {
-    "keys": ["ctrl+y"],
-    "command": "toggle_setting",
-    "args": { "setting": "word_wrap" },
-  },
-
   { "keys": ["ctrl+t"], "command": "toggle_side_bar" },
   { "keys": ["ctrl+tab"], "command": "next_view" },
   { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
