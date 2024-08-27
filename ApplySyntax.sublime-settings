@@ -32,16 +32,17 @@
       ],
     },
     {
+      "syntax": "Jinja2/Syntaxes/YAML/YAML (Jinja)",
+      "extensions": ["tmpl", "j2"],
+      "rules": [{ "file_path": ".*tmpl" }],
+    },
+    {
       "syntax": "User/Syntax/templ",
       "rules": [{ "file_path": ".*templ" }],
     },
     {
       "syntax": "Go/Go",
       "rules": [{ "file_path": ".*tpl" }],
-    },
-    {
-      "syntax": "Jinja2/resources/syntax/Jinja",
-      "extensions": ["tmpl"],
     },
     {
       "syntax": "Markdown/Markdown",

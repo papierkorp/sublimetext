@@ -73,21 +73,22 @@
       "syntaxes": ["dockerfile", "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile", "Dockerfile"],
       "executable_path": ["C:\\Program Files\\Go\\bin\\dockfmt.exe"],
     },
-    "templ": {
-      "name": "Templ",
-      "type": "beautifier",
-      "enable": true,
-      "format_on_save": true,
-      "syntaxes": ["templ", "go.templ"],
-      "executable_path": ["cmd"],
-      "args": [
-        "wsl",
-        "sh",
-        "-c",
-        "templ_path=$(wslpath -u '/home/markus/go/bin/templ') && file_path=$(wslpath -u \"$1\") && $templ_path fmt $file_path",
-      ],
-      ///home/markus/go/bin/templ fmt /mnt/c/develop/gowiki/internal/templates/home.templ
-    },
+    // "templ": {
+    //   "name": "Templ",
+    //   "type": "beautifier",
+    //   "enable": true,
+    //   "format_on_save": true,
+    //   "syntaxes": ["templ", "go.templ"],
+    //   "executable_path": ["cmd"],
+    //   "args": [
+    //     "wsl",
+    //     "sh",
+    //     "-c",
+    //     // "templ_path=$(wslpath -u '/home/markus/go/bin/templ') && file_path=$(wslpath -u \"$1\") && $templ_path fmt $file_path",
+    //     "templ_path=$(wslpath -u '/usr/local/go/bin/templ') && file_path=$(wslpath -u \"$1\") && $templ_path fmt $file_path",
+    //   ],
+    //   ///home/markus/go/bin/templ fmt /mnt/c/develop/gowiki/internal/templates/home.templ
+    // },
     "gofmt": {
       "info": "https://pkg.go.dev/cmd/gofmt",
       "enable": true,
