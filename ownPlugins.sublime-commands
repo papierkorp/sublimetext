@@ -1,0 +1,12 @@
+[
+  {
+    "caption": "own: Delete Linebreaks",
+    "command": "own_delete_linebreaks",
+    "args": { "format_json": false },
+  },
+  {
+    "caption": "own: Delete Linebreaks and Format JSON",
+    "command": "own_delete_linebreaks",
+    "args": { "format_json": true },
+  },
+]

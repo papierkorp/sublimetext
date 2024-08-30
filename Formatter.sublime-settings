@@ -60,7 +60,7 @@
         "exclude_syntaxes": [],
       },
       "syntaxes": ["python"],
-      "executable_path": ["C:\\Users\\Markus\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\black.exe"],
+      "executable_path": ["C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\black.exe"],
       "config_path": {
         "default": "${packages}\\User\\formatter.assets\\config\\black_rc.toml",
       },
