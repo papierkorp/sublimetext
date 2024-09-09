@@ -2,8 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"LSP-html",
-		"LSP-tailwindcss",
 	],
 	"installed_packages":
 	[

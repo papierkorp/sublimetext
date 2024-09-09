@@ -2,7 +2,7 @@
 // Pick up items you need, just make sure to maintain the structure.
 {
   "debug": true,
-  "open_console_on_failure": true,
+  "open_console_on_failure": false,
   "show_statusbar": true,
   "formatters": {
     "ktlint": {
@@ -15,6 +15,7 @@
     "prettier": {
       "enable": true,
       "format_on_save": true,
+      "format_on_paste": false,
       "syntaxes": [
         "css",
         "scss",
@@ -43,6 +44,7 @@
     "shellcheck": {
       "enable": true,
       "format_on_save": true,
+      "format_on_paste": false,
       "syntaxes": ["bash", "sh", "bat"],
       "executable_path": "C:\\ProgramData\\chocolatey\\bin\\shellcheck.exe",
     },
@@ -70,6 +72,7 @@
       "info": "https://github.com/jessfraz/dockfmt",
       "enable": true,
       "format_on_save": true,
+      "format_on_paste": false,
       "syntaxes": ["dockerfile", "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile", "Dockerfile"],
       "executable_path": ["C:\\Program Files\\Go\\bin\\dockfmt.exe"],
     },
@@ -93,6 +96,7 @@
       "info": "https://pkg.go.dev/cmd/gofmt",
       "enable": true,
       "format_on_save": false,
+      "format_on_paste": false,
       "syntaxes": ["go", "Gomod"],
       "executable_path": ["C:\\Program Files\\Go\\bin"],
       "exclude_syntaxes": ["go.templ", "templ"],
@@ -101,7 +105,7 @@
   "auto_format": {
     "config": {
       "format_on_save": false,
-      "format_on_paste": false,
+      "format_on_paste": false
     },
     "json": {
       "format_on_save": true,
@@ -140,6 +144,7 @@
     },
     "yaml": {
       "format_on_save": true,
+      "format_on_paste": false,
       "uid": "prettier",
     },
     "yml": {
@@ -148,6 +153,7 @@
     },
     "markdown": {
       "format_on_save": true,
+      "format_on_paste": false,
       "uid": "prettier",
     },
     "Ansible": {
