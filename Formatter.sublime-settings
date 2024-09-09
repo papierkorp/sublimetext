@@ -103,10 +103,10 @@
     },
   },
   "auto_format": {
-    "config": {
-      "format_on_save": false,
-      "format_on_paste": false
-    },
+    // "config": {
+    //   "format_on_save": false,
+    //   "format_on_paste": false
+    // },
     "json": {
       "format_on_save": true,
       "uid": "prettier",
