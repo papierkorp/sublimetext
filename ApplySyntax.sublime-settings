@@ -37,12 +37,15 @@
       "rules": [{ "file_path": ".*tmpl" }],
     },
     {
-      "syntax": "User/Syntax/templ",
-      "rules": [{ "file_path": ".*templ" }],
+      "syntax": "Go/Go",
+      "rules": [
+        { "file_path": ".*tpl" },
+        { "file_path": ".*templ" }
+      ],
     },
     {
-      "syntax": "Go/Go",
-      "rules": [{ "file_path": ".*tpl" }],
+      "syntax": "User/Syntax/templ",
+      "rules": [{ "file_path": ".*templ" }],
     },
     {
       "syntax": "Markdown/Markdown",
