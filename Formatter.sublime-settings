@@ -162,7 +162,7 @@
       "uid": "prettier",
     },
     "Dockerfile": {
-      "format_on_save": true,
+      "format_on_save": false,
       "uid": "dockfmt",
     },
     "go": {
