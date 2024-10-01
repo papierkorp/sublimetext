@@ -72,7 +72,7 @@
     "dockfmt": {
       "info": "https://github.com/jessfraz/dockfmt",
       "enable": true,
-      "format_on_save": true,
+      "format_on_save": false,
       "format_on_paste": false,
       "syntaxes": ["dockerfile", "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile", "Dockerfile"],
       "executable_path": ["C:\\Program Files\\Go\\bin\\dockfmt.exe"],
