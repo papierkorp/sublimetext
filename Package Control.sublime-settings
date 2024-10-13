@@ -2,6 +2,9 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"LSP",
+		"LSP-bash",
+		"SublimeLinter",
 	],
 	"installed_packages":
 	[
@@ -19,7 +22,6 @@
 		"Gomod",
 		"Haproxy",
 		"Jinja2",
-		"JSCustom",
 		"Liquid",
 		"LogView",
 		"LSP",
