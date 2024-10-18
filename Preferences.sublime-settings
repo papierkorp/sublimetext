@@ -1,14 +1,21 @@
 {
-  "color_scheme": "Monokai.sublime-color-scheme",
-  "font_size": 12,
+  "color_scheme": "markus.sublime-color-scheme",
+  "font_size": 15,
   "theme": "Spacegray Eighties.sublime-theme",
   "draw_minimap_border": true,
   "always_show_minimap_viewport": true,
-  "show_encoding": true,
+  "show_encoding": false,
   "translate_tabs_to_spaces": true,
-  "index_files": false,
+  "index_files": true,
   "console_max_history_lines": 3000,
+  "font_face": "Jetbrains Mono",
+  "save_on_focus_lost": true,
+  "trim_trailing_white_space_on_save": true,
+  "highlight_find_results_in_scrollbar": true,
+  "highlight_line": true,
+  "highlight_gutter": true,
   "ignored_packages":
   [
   ],
+  "auto_complete": true,
 }
