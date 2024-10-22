@@ -270,7 +270,7 @@
         {
             "name": "markup code",
             "scope": "markup.raw",
-            "background": "color(var(white) alpha(0.094))"
+            "background": "color(var(white) alpha(0.064))"
         },
         {
             "name": "markup punctuation",

@@ -1,7 +1,7 @@
 {
     "name": "Terminus",
     "variables": {
-        "background": "#282924",
+        "background": "#23241f",
         "foreground": "#fafafa",
         "black": "#000000",
         "red": "#f83535",
@@ -22,6 +22,6 @@
         "caret": "#fafafa"
     },
     "globals": {
-        "background": "#282923"
+        "background": "#23241e"
     }
 }
