@@ -14,7 +14,10 @@
     },
     "prettier": {
       "enable": true,
-      "format_on_save": true,
+      "format_on_save": {
+        "exclude_syntaxes": ["Dockerfile", "go", "Jinja2/Syntaxes/YAML/YAML (Jinja)"],
+        "exclude_dirs_regex": [".*helm.*"],
+      },
       "format_on_paste": false,
       "syntaxes": [
         "css",
@@ -32,8 +35,8 @@
         "yaml",
         "yml",
         "ansible",
+        "PackageDev/Package/Sublime Text Settings/Sublime Text Settings",
       ],
-      "exclude_syntaxes": ["Dockerfile", "go"],
       "config_path": {
         "default": "C:\\develop\\gitlab\\leasone\\webapp\\.prettierrc.json",
         "yaml": "${packages}\\User\\formatter.assets\\config\\prettier_rc.json",
@@ -104,10 +107,20 @@
     },
   },
   "auto_format": {
-    // "config": {
-    //   "format_on_save": false,
-    //   "format_on_paste": false
-    // },
+    "config": {
+      "format_on_save": false,
+      "format_on_paste": false
+    },
+    "Packages/Jinja2/Syntaxes/YAML/YAML (Jinja).sublime-syntax": {
+      "format_on_save": false
+    },
+    "Jinja2/Syntaxes/YAML/YAML (Jinja)": {
+      "format_on_save": false
+    },
+    "PackageDev/Package/Sublime Text Settings/Sublime Text Settings": {
+      "format_on_save": true,
+      "uid": "prettier",
+    },
     "json": {
       "format_on_save": true,
       "uid": "prettier",
@@ -146,7 +159,6 @@
     "yaml": {
       "format_on_save": true,
       "format_on_paste": false,
-      "uid": "prettier",
     },
     "yml": {
       "format_on_save": true,

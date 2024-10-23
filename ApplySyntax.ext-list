@@ -221,7 +221,6 @@
 	],*/
 	"YAML":
 	[
-		"sublime-syntax",
 		"yaml",
 		"yml",
 	],

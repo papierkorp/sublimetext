@@ -9,10 +9,6 @@
       "extensions": ["py"],
     },
     {
-      "syntax": "YAML/YAML",
-      "extensions": ["yaml", "yml", "sublime-syntax"],
-    },
-    {
       "syntax": "zzz A File Icon zzz/aliases/Groovy (Jenkins)",
       "rules": [
         { "file_path": ".*\\Jenkinsfile*" },
@@ -32,20 +28,15 @@
       ],
     },
     {
-      "syntax": "Jinja2/Syntaxes/YAML/YAML (Jinja)",
-      "extensions": ["tmpl", "j2"],
-      "rules": [{ "file_path": ".*tmpl" }],
-    },
-    {
       "syntax": "Go/Go",
       "rules": [
-        { "file_path": ".*tpl" },
-        { "file_path": ".*templ" }
+        { "file_name": ".*tpl" },
+        { "file_name": ".*templ" }
       ],
     },
     {
       "syntax": "User/Syntax/templ",
-      "rules": [{ "file_path": ".*templ" }],
+      "rules": [{ "file_name": ".*templ" }],
     },
     {
       "syntax": "Markdown/Markdown",
@@ -96,7 +87,14 @@
     },
     {
       "syntax": "Jinja2/Syntaxes/YAML/YAML (Jinja)",
-      "rules": [{ "file_path": ".*helm.*" }],
+      "extensions": ["tmpl", "j2"],
+      "rules": [{ "file_path": ".*tmpl" }],
+    },
+    {
+      "syntax": "Jinja2/Syntaxes/YAML/YAML (Jinja)",
+      "rules": [
+        { "file_path": ".*helm.*" }
+      ],
     },
     {
       "syntax": "YAML/YAML",
