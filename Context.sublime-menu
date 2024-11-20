@@ -1,9 +1,9 @@
 [
-	{ "caption": "-", "id": "privat" },
-	{ "caption": "Minimap", "command": "toggle_minimap"},
-	{ "caption": "WordWrap", "command": "toggle_setting", "args": {"setting": "word_wrap"}},
-	{ "caption": "Logview", "command": "set_file_type", "args": {"syntax": "Packages/LogView/logview.tmLanguage"}},
-	{ "caption": "Plain Text", "command": "set_file_type", "args": {"syntax": "Packages/Text/Plain text.tmLanguage"}},
-	{ "caption": "Javascript", "command": "set_file_type", "args": {"syntax": "Packages/Babel/JavaScript (Babel)"}},
-	{ "caption": "YAML", "command": "set_file_type", "args": {"syntax": "Packages/YAML/YAML.tmLanguage"}},
+  { "caption": "-", "id": "privat" },
+  { "caption": "Minimap", "command": "toggle_minimap" },
+  { "caption": "WordWrap", "command": "toggle_setting", "args": { "setting": "word_wrap" } },
+  { "caption": "Logview", "command": "set_file_type", "args": { "syntax": "Packages/LogView/logview.tmLanguage" } },
+  { "caption": "Plain Text", "command": "set_file_type", "args": { "syntax": "Packages/Text/Plain text.tmLanguage" } },
+  { "caption": "Markdown", "command": "set_file_type", "args": { "syntax": "Packages/Markdown/Markdown" } },
+  { "caption": "YAML", "command": "set_file_type", "args": { "syntax": "Packages/YAML/YAML.tmLanguage" } },
 ]
