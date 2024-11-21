@@ -2,6 +2,25 @@
 {
   // "debug": true,
   "statusbar.messages_template": "{linter}-{code}-{message}",
+  "show_marks_in_minimap": true,
+  "statusbar.show_active_linters": true,
+  "styles": [
+    {
+      "mark_style": "stippled_underline",
+      "priority": 1,
+      "scope": "region.yellowish markup.warning.sublime_linter",
+      "icon": "warning",
+      "types": ["warning"]
+    },
+    {
+      "mark_style": "squiggly_underline",
+      "priority": 1,
+      "scope": "region.redish markup.error.sublime_linter",
+      "icon": "error",
+      "types": ["error"]
+    }
+  ],
+  "debug": true,
   "linters": {
     "ktlint": {
       "disable": false,
@@ -14,10 +33,10 @@
       "selector": "text.html.basic"
     },
     "yamllint": {
-      "disable": true,
-      // https://yamllint.readthedocs.io/en/latest/rules.html
-      "selector": "source.yaml",
-      "d": "extends: default\nrules: { line-length: { max: 12000 }, min-spaces-from-content: 0 }"
+      "disable": false,
+      "executable": "C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\yamllint.exe",
+      "selector": "source.yaml, YAML/YAML",
+      "c": "${packages}\\User\\.yamllint",
     },
     "stylelint": {
       "disable": false,

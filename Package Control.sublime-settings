@@ -53,6 +53,7 @@
 		"SublimeLinter-contrib-hadolint",
 		"SublimeLinter-contrib-htmlhint",
 		"SublimeLinter-contrib-staticcheck",
+		"SublimeLinter-contrib-yamllint",
 		"SublimeLinter-eslint",
 		"SublimeLinter-javac",
 		"SublimeLinter-json",
