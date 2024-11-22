@@ -37,6 +37,7 @@
       "executable": "C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\yamllint.exe",
       "selector": "source.yaml, YAML/YAML",
       "c": "${packages}\\User\\.yamllint",
+      "excludes": ".*helm.*",
     },
     "stylelint": {
       "disable": false,
