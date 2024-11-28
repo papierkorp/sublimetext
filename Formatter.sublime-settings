@@ -41,9 +41,10 @@
         "default": "C:\\develop\\gitlab\\leasone\\webapp\\.prettierrc.json",
         "yaml": "${packages}\\User\\formatter.assets\\config\\prettier_rc.json",
         "markdown": "${packages}\\User\\formatter_markdown_prettier_rc.json",
+        // "html": "${packages}\\User\\formatter_html_prettier_rc.json",
       },
       "executable_path": "C:\\Users\\Markus\\AppData\\Roaming\\npm\\prettier.cmd",
-      "args": ["--log-level", "debug"],
+      "args": ["--log-level", "debug", "--single-quote"],
     },
     "shellcheck": {
       "enable": true,
