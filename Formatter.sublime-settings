@@ -36,6 +36,8 @@
         "yml",
         "ansible",
         "PackageDev/Package/Sublime Text Settings/Sublime Text Settings",
+        "PackageDev/Package/Sublime Text Keymap/Sublime Text Keymap",
+        "XML/XML",
       ],
       "config_path": {
         "default": "C:\\develop\\gitlab\\leasone\\webapp\\.prettierrc.json",
@@ -59,11 +61,11 @@
       "format_on_save": true,
       "format_on_paste": false,
       "new_file_on_format": false,
-      "recursive_folder_format": {
+      "dir_format": {
         "enable": false,
-        "exclude_folders_regex": [],
+        "exclude_dirs_regex": [],
         "exclude_files_regex": [],
-        "exclude_extensions": [],
+        "exclude_extensions_regex": [],
         "exclude_syntaxes": [],
       },
       "syntaxes": ["python"],
