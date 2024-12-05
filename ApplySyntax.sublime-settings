@@ -30,14 +30,13 @@
     {
       "syntax": "Go/Go",
       "rules": [
-        { "file_name": ".*tpl" },
-        { "file_name": ".*templ" }
+        { "file_name": ".*tpl" }
       ],
     },
-    {
-      "syntax": "User/Syntax/templ",
-      "rules": [{ "file_name": ".*templ" }],
-    },
+    // {
+    //   "syntax": "Templ (go)/templ",
+    //   "rules": [{ "file_name": ".*templ" }],
+    // },
     {
       "syntax": "Markdown/Markdown",
       "extensions": [".txt", "md"],
