@@ -102,7 +102,7 @@
     "gofmt": {
       "info": "https://pkg.go.dev/cmd/gofmt",
       "enable": true,
-      "format_on_save": false,
+      "format_on_save": true,
       "format_on_paste": false,
       "syntaxes": ["go", "Gomod"],
       "executable_path": ["C:\\Program Files\\Go\\bin"],
