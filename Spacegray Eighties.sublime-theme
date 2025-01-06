@@ -1,29 +1,39 @@
 // Documentation at https://www.sublimetext.com/docs/themes.html
 {
-	"variables":
-	{
-	},
-	"rules":
-	[
-		{
-        "class": "minimap_control",
-        "settings": ["always_show_minimap_viewport"],
-        "viewport_color": [68, 200, 240, 96],
-        "viewport_opacity": 1.0,
+  "variables": {},
+  "rules": [
+    {
+      "class": "minimap_control",
+      "settings": ["always_show_minimap_viewport"],
+      "viewport_color": [68, 200, 240, 96],
+      "viewport_opacity": 1.0,
     },
 
     {
-        "class": "minimap_control",
-        "settings": ["!always_show_minimap_viewport"],
-        "viewport_color": [68, 200, 240, 96],
-        "viewport_opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
+      "class": "minimap_control",
+      "settings": ["!always_show_minimap_viewport"],
+      "viewport_color": [68, 200, 240, 96],
+      "viewport_opacity": {
+        "target": 0.0,
+        "speed": 4.0,
+        "interpolation": "smoothstep",
+      },
     },
 
     {
-        "class": "minimap_control",
-        "attributes": ["hover"],
-        "settings": ["!always_show_minimap_viewport"],
-        "viewport_opacity": { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" },
+      "class": "minimap_control",
+      "attributes": ["hover"],
+      "settings": ["!always_show_minimap_viewport"],
+      "viewport_opacity": {
+        "target": 1.0,
+        "speed": 20.0,
+        "interpolation": "smoothstep",
+      },
     },
-	]
+    // use dark title/menu bar
+    {
+      "class": "title_bar",
+      "style": "dark",
+    },
+  ],
 }

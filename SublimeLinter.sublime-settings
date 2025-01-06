@@ -27,6 +27,11 @@
       "executable": "C:\\bin\\ktlint\\ktlint.bat",
       "selector": "source.Kotlin, Kotlin/Kotlin"
     },
+    "staticcheck": {
+      "disable": false,
+      "selector": "source.go",
+      "executable": "C:\\Users\\markus\\go\\bin\\staticcheck.exe"
+    },
     "htmlhint": {
       "disable": false,
       "excludes": "*.md",

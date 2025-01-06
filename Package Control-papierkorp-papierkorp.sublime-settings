@@ -2,6 +2,10 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"LSP",
+		"LSP-bash",
+		"SublimeLinter",
+		"WslBuild",
 	],
 	"installed_packages":
 	[

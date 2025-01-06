@@ -105,7 +105,9 @@
       "format_on_save": true,
       "format_on_paste": false,
       "syntaxes": ["go", "Gomod"],
-      "executable_path": ["C:\\Program Files\\Go\\bin"],
+      "executable_path": "C:\\Program Files\\Go\\bin",
+
+      // "executable_path": ["C:\\Program Files\\Go\\bin", "/usr/local/go/bin/gofmt"],
       "exclude_syntaxes": ["go.templ", "templ"],
     },
   },

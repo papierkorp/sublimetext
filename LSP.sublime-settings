@@ -1,6 +1,7 @@
 {
   "show_inlay_hints": true,
   "inhibit_snippet_completions": true,
+  "inhibit_word_completions": true,
   "log_debug": true,
   "show_code_actions": "annotation",
   "show_diagnostics_annotations_severity_level": 2,
@@ -25,17 +26,12 @@
     "gopls": {
       "enabled": true,
       "env": {
-        "PATH": "C:\\Program Files\\Go\\bin\\go.exe",
+        // "PATH": "C:\\Program Files\\Go\\bin",
+        "PATH": "C:\\Users\\markus\\go\\bin",
+        // "PATH": "/usr/local/go/bin/go",
         "TEMPL_EXPERIMENT": "rawgo",
       },
-      // Recommended by https://agniva.me/gopls/2021/01/02/setting-up-gopls-sublime.html
-      // except log_stderr mentioned there is no longer recognized.
-      "show_references_in_quick_panel": true,
-      "log_debug": true,
-      "selector": "source.go | text.html.gohtml | source.templ",
-      // These two are recommended by LSP-json as replacement for deprecated only_show_lsp_completions
-      "inhibit_snippet_completions": true,
-      "inhibit_word_completions": true,
+      "selector": "source.go",
     },
     "ansible": {
       "enabled": false,
