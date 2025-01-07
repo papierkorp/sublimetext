@@ -42,7 +42,7 @@
       "executable": "C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\yamllint.exe",
       "selector": "source.yaml, YAML/YAML",
       "c": "${packages}\\User\\.yamllint",
-      "excludes": ".*helm.*",
+      "excludes": [".*helm.*", ".*ansible.*", ".*playbook.*"],
     },
     "stylelint": {
       "disable": false,
@@ -61,9 +61,9 @@
       "selector": "source.ts, source.js source.jsx source.tsx",
       "args": ["--config", "C:\\develop\\gitlab\\leasone\\webapp\\.eslintrc.js"]
     },
-    "ansible-lint": {
+    "ansiblelint": {
       "disable": true,
-      "selector": "Ansible/Ansible",
+      "selector": "source.ansible",
       "executable": "C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\ansible-lint.exe"
     },
     "lua": {

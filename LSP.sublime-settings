@@ -34,16 +34,18 @@
       "selector": "source.go",
     },
     "ansible": {
-      "enabled": false,
-      "command": ["C:\\Users\\Markus\\AppData\\Roaming\\npm\\ansible-language-server.cmd", "--stdio"],
+      "enabled": true,
+      "command": ["C:\\bin\\ansible-language-server.bat"],
       "selector": "source.ansible",
       "settings": {
-        "validation": {
-          "lint": {
-            "enabled": false,
-          },
+        "ansible": {
+          "path": "ansible"
         },
-      },
+        "ansibleLint": {
+          "enabled": true,
+          "path": "/home/markus/.local/bin/ansible-lint"
+        },
+      }
     },
     "helm-ls": {
       "enabled": false,
