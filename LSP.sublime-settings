@@ -42,8 +42,7 @@
           "path": "ansible"
         },
         "ansibleLint": {
-          "enabled": true,
-          "path": "/home/markus/.local/bin/ansible-lint"
+          "enabled": false,
         },
       }
     },
