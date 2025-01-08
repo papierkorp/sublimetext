@@ -64,7 +64,7 @@
     "ansiblelint": {
       "disable": true,
       "selector": "source.ansible",
-      "executable": "C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\ansible-lint.exe"
+      "executable": "C:\\bin\\ansible-language-server.bat"
     },
     "lua": {
       "disable": false

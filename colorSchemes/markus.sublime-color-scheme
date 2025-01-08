@@ -31,7 +31,7 @@
         "block_caret": "color(var(white2) alpha(0.2))",
         "block_caret_border": "color(var(white2) alpha(0.8))",
         "invisibles": "color(var(white3) alpha(0.35))",
-        "line_highlight": "var(yellow4)",
+        "line_highlight": "color(var(grey) alpha(0.4))",
         "selection": "var(grey)",
         "selection_border": "var(black2)",
         "misspelling": "var(red2)",
@@ -270,7 +270,7 @@
         {
             "name": "markup code",
             "scope": "markup.raw",
-            "background": "color(var(white) alpha(0.064))"
+            "background": "var(yellow4)"
         },
         {
             "name": "markup punctuation",

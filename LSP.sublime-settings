@@ -34,16 +34,27 @@
       "selector": "source.go",
     },
     "ansible": {
-      "enabled": true,
-      "command": ["C:\\bin\\ansible-language-server.bat"],
+      "enabled": false,
+      "command": ["C:\\bin\\ansible-language-server.bat", "--stdio"],
       "selector": "source.ansible",
-      "settings": {
+      "schemes": ["file"],
+      "env": {
+        "ANSIBLE_LINT_PATH": "ansible-lint",
+        "PATH": "/home/markus/.local/bin:/usr/bin:${PATH}"
+      },
+      "initializationOptions": {
         "ansible": {
-          "path": "ansible"
+          "path": "ansible",
+          "useFullyQualifiedCollectionNames": true
         },
         "ansibleLint": {
-          "enabled": false,
-        },
+          "enabled": true,
+          "path": "ansible-lint"
+        }
+      },
+      "settings": {
+        "ansible.path": "/usr/bin/ansible",
+        "ansible.ansible-lint.path": "/home/markus/.local/bin/ansible-lint"
       }
     },
     "helm-ls": {
