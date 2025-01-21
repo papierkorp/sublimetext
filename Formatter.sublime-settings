@@ -6,7 +6,7 @@
   "show_statusbar": true,
   "formatters": {
     "ktlint": {
-      "enable": true,
+      "enable": false,
       "format_on_save": true,
       "syntaxes": ["kotlin", "Kotlin/Kotlin", "Kotlin", "kt", "kts"],
       "interpreter_path": "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
@@ -45,7 +45,7 @@
         "markdown": "${packages}\\User\\formatter_markdown_prettier_rc.json",
         // "html": "${packages}\\User\\formatter_html_prettier_rc.json",
       },
-      "executable_path": "C:\\Users\\Markus\\AppData\\Roaming\\npm\\prettier.cmd",
+      "executable_path": ["C:\\Users\\Markus\\AppData\\Roaming\\npm\\prettier.cmd"],
       "args": ["--log-level", "debug", "--single-quote"],
     },
     "shellcheck": {
@@ -53,7 +53,7 @@
       "format_on_save": true,
       "format_on_paste": false,
       "syntaxes": ["bash", "sh", "bat"],
-      "executable_path": "C:\\ProgramData\\chocolatey\\bin\\shellcheck.exe",
+      "executable_path": ["C:\\ProgramData\\chocolatey\\bin\\shellcheck.exe", "/usr/bin/shellcheck"],
     },
     "black": {
       "info": "https://github.com/psf/black",
@@ -69,7 +69,7 @@
         "exclude_syntaxes": [],
       },
       "syntaxes": ["python"],
-      "executable_path": ["C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\black.exe"],
+      "executable_path": ["C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\black.exe", "/home/markus/.local/bin/black"],
       "config_path": {
         "default": "${packages}\\User\\formatter.assets\\config\\black_rc.toml",
       },
@@ -81,7 +81,7 @@
       "format_on_save": false,
       "format_on_paste": false,
       "syntaxes": ["dockerfile", "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile", "Dockerfile"],
-      "executable_path": ["C:\\Program Files\\Go\\bin\\dockfmt.exe"],
+      "executable_path": ["C:\\Program Files\\Go\\bin\\dockfmt.exe", "/home/markus/go/bin/dockfmt"],
     },
     // "templ": {
     //   "name": "Templ",
@@ -105,10 +105,16 @@
       "format_on_save": true,
       "format_on_paste": false,
       "syntaxes": ["go", "Gomod"],
-      "executable_path": "C:\\Program Files\\Go\\bin",
-
-      // "executable_path": ["C:\\Program Files\\Go\\bin", "/usr/local/go/bin/gofmt"],
+      "executable_path": ["C:\\Program Files\\Go\\bin", "/usr/local/go/bin/gofmt"],
       "exclude_syntaxes": ["go.templ", "templ"],
+    },
+    "stylua": {
+      "info": "https://github.com/JohnnyMorganz/StyLua",
+      "enable": true,
+      "format_on_save": true,
+      "format_on_paste": false,
+      "syntaxes": ["lua"],
+      "executable_path": ["/usr/local/bin/stylua"],
     },
   },
   "auto_format": {
@@ -129,6 +135,10 @@
     "json": {
       "format_on_save": true,
       "uid": "prettier",
+    },
+    "lua": {
+      "format_on_save": true,
+      "uid": "stylua",
     },
     "javascript": {
       "format_on_save": true,
