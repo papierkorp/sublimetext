@@ -6,22 +6,47 @@
   "show_code_actions": "annotation",
   "show_diagnostics_annotations_severity_level": 2,
   "show_diagnostics_panel_on_save": 1,
+  "lsp_format_on_save": true,
+  "lsp_code_actions_on_save": {
+    "source.organizeImports": true,
+  },
   "clients": {
     "godot-lsp": {
       "enabled": false,
-      "command": ["C:\\develop\\privat\\godot\\Godot_v4.3-stable_win64.exe"],
+      "command": [
+        "C:\\develop\\privat\\godot\\Godot_v4.3-stable_win64.exe"
+      ],
       "tcp_port": 6005,
       "selector": "source.gdscript",
     },
+    // "md-lsp": {
+    //   //cargo install --git https://github.com/matkrin/md-lsp.git
+    //   "enabled": false,
+    //   "command": [
+    //     "md-lsp",
+    //   ],
+    //   "selector": "text.html.markdown",
+    // },
     "kotlinls": {
       "enabled": false,
-      "command": ["C:\\bin\\kotlin-lsp\\bin\\kotlin-language-server.bat"],
+      "command": [
+        "C:\\bin\\kotlin-lsp\\bin\\kotlin-language-server.bat"
+      ],
       "selector": "source.Kotlin",
       "settings": {
         "kotlin": {
           // put your server settings here
         },
       },
+    },
+    "phpactor": {
+      "enabled": true,
+      "command": [
+        "phpactor",
+        "language-server"
+      ],
+      "selector": "embedding.php",
+      "priority_selector": "source.php",
     },
     "gopls": {
       "enabled": true,
@@ -35,9 +60,14 @@
     },
     "ansible": {
       "enabled": false,
-      "command": ["C:\\bin\\ansible-language-server.bat", "--stdio"],
+      "command": [
+        "C:\\bin\\ansible-language-server.bat",
+        "--stdio"
+      ],
       "selector": "source.ansible",
-      "schemes": ["file"],
+      "schemes": [
+        "file"
+      ],
       "env": {
         "ANSIBLE_LINT_PATH": "ansible-lint",
         "PATH": "/home/markus/.local/bin:/usr/bin:${PATH}"
@@ -58,9 +88,12 @@
       }
     },
     "helm-ls": {
-      "enabled": false,
-      "command": ["C:\\bin\\helm\\helm_ls_windows_amd64.exe"],
-      "selector": "source.yaml.jinja",
+      "enabled": true,
+      "command": [
+        "helm_ls",
+        "serve"
+      ],
+      "selector": "source.yaml.jinja | source.meta.jinja",
       "settings": {
         "helm-ls": {
           "logLevel": "info",
@@ -73,7 +106,13 @@
     },
     "templ": {
       "enabled": false,
-      "command": ["C:\\Windows\\system32\\cmd.exe", "wsl", "sh", "-c", "templ_path=$(wslpath -u '/home/markus/go/bin/templ') && $templ_path lsp"],
+      "command": [
+        "C:\\Windows\\system32\\cmd.exe",
+        "wsl",
+        "sh",
+        "-c",
+        "templ_path=$(wslpath -u '/home/markus/go/bin/templ') && $templ_path lsp"
+      ],
       "selector": "source.go.templ",
       "tcp_port": "5286"
     },

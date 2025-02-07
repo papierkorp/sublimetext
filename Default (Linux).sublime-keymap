@@ -220,5 +220,7 @@
   { "keys": ["ctrl+alt+j"], "command": "show_panel", "args": { "panel": "console", "toggle": true } },
   { "keys": ["ctrl+shift+r"], "command": "view_bookmarks" },
   { "keys": ["ctrl+shift+i"], "command": "quick_options" },
-  { "keys": ["ctrl+y"], "command": "redo" }
+  { "keys": ["ctrl+y"], "command": "redo" },
+  { "keys": ["ctrl+<"], "command": "toggle_setting", "args": { "setting": "word_wrap" }  }
+
 ]

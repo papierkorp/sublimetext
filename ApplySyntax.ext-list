@@ -219,11 +219,11 @@
 		".txt",
 		"md"
 	],*/
-	"YAML":
+	/*"YAML":
 	[
 		"yaml",
 		"yml",
-	],
+	],*/
 	/*"GenericConfig":
 	[
 		"cfg",

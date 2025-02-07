@@ -10,14 +10,18 @@
       "priority": 1,
       "scope": "region.yellowish markup.warning.sublime_linter",
       "icon": "warning",
-      "types": ["warning"]
+      "types": [
+        "warning"
+      ]
     },
     {
       "mark_style": "squiggly_underline",
       "priority": 1,
       "scope": "region.redish markup.error.sublime_linter",
       "icon": "error",
-      "types": ["error"]
+      "types": [
+        "error"
+      ]
     }
   ],
   "debug": true,
@@ -39,14 +43,21 @@
     },
     "yamllint": {
       "disable": false,
-      "executable": "C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\yamllint.exe",
+      // "executable": "C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\yamllint.exe",
       "selector": "source.yaml, YAML/YAML",
       "c": "${packages}\\User\\.yamllint",
-      "excludes": [".*helm.*", ".*ansible.*", ".*playbook.*"],
+      "excludes": [
+        ".*helm.*",
+        ".*ansible.*",
+        ".*playbook.*"
+      ],
     },
     "stylelint": {
       "disable": false,
-      "args": ["--config", "%APPDATA%/Sublime Text/Packages/User/.stylelintrc"]
+      "args": [
+        "--config",
+        "%APPDATA%/Sublime Text/Packages/User/.stylelintrc"
+      ]
     },
     "dockerfilelint": {
       "disable": false,
@@ -54,26 +65,32 @@
     },
     "shellcheck": {
       "disable": false,
-      "excludes": [".gitlab-ci.yml"]
+      "excludes": [
+        ".gitlab-ci.yml"
+      ]
     },
     "eslint": {
       "disable": false,
       "selector": "source.ts, source.js source.jsx source.tsx",
-      "args": ["--config", "C:\\develop\\gitlab\\leasone\\webapp\\.eslintrc.js"]
+      "args": [
+        "--config",
+        "C:\\develop\\gitlab\\leasone\\webapp\\.eslintrc.js"
+      ]
     },
     "ansiblelint": {
-      "disable": true,
+      "disable": false,
       "selector": "source.ansible",
-      "executable": "C:\\bin\\ansible-language-server.bat"
+      "executable": "ansible-lint"
     },
     "lua": {
       "disable": false
     }
   },
-
   "paths": {
     "linux": [],
     "osx": [],
-    "windows": ["C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\"]
+    "windows": [
+      "C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\"
+    ]
   }
 }

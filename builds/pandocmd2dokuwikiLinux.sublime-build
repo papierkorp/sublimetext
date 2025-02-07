@@ -1,0 +1,8 @@
+{
+  "cmd": [
+    "pwd && echo $file_name && pandoc $file_name -f markdown -t dokuwiki -o /home/markus/develop/tmp/pandoc/$file_base_name.txt --verbose && echo /home/markus/develop/tmp/pandoc && echo /home/markus/develop/tmp/pandoc/$file_base_name.txt && subl /home/markus/develop/tmp/pandoc/$file_base_name.txt",
+  ],
+  "working_dir": "$file_path",
+  "shell": true,
+  "cancel": { "kill": true },
+}

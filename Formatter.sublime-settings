@@ -37,6 +37,8 @@
         "ansible",
         "PackageDev/Package/Sublime Text Settings/Sublime Text Settings",
         "PackageDev/Package/Sublime Text Keymap/Sublime Text Keymap",
+        "sublime.settings",
+        "PackageDev/Package/Sublime Text Settings/Sublime Text Settings",
         "XML/XML",
       ],
       "config_path": {
@@ -128,7 +130,7 @@
     "Jinja2/Syntaxes/YAML/YAML (Jinja)": {
       "format_on_save": false
     },
-    "PackageDev/Package/Sublime Text Settings/Sublime Text Settings": {
+    "sublime.settings": {
       "format_on_save": true,
       "uid": "prettier",
     },
