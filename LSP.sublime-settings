@@ -6,6 +6,7 @@
   "show_code_actions": "annotation",
   "show_diagnostics_annotations_severity_level": 2,
   "show_diagnostics_panel_on_save": 1,
+  "show_references_in_quick_panel": true,
   "lsp_format_on_save": true,
   "lsp_code_actions_on_save": {
     "source.organizeImports": true,
@@ -50,13 +51,20 @@
     },
     "gopls": {
       "enabled": true,
+      "command": [
+        "/home/markus/go/bin/gopls"
+      ],
       "env": {
         // "PATH": "C:\\Program Files\\Go\\bin",
-        "PATH": "C:\\Users\\markus\\go\\bin",
-        // "PATH": "/usr/local/go/bin/go",
-        "TEMPL_EXPERIMENT": "rawgo",
+        // "PATH": "C:\\Users\\markus\\go\\bin",
+        "PATH": "/usr/local/go/bin:/home/markus/go/bin",
+        "GOPATH": "/home/markus/go/bin",
+        "TEMPL_EXPERIMENT": "rawgo"
       },
-      "selector": "source.go",
+      "settings": {
+        "experimentalWorkspaceModule": true
+      },
+      "selector": "source.go"
     },
     "ansible": {
       "enabled": false,

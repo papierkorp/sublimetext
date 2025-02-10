@@ -34,7 +34,8 @@
     "staticcheck": {
       "disable": false,
       "selector": "source.go",
-      "executable": "C:\\Users\\markus\\go\\bin\\staticcheck.exe"
+      // "executable": "C:\\Users\\markus\\go\\bin\\staticcheck.exe"
+      "executable": "/home/markus/go/bin/staticcheck"
     },
     "htmlhint": {
       "disable": false,

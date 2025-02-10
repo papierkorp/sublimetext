@@ -6,7 +6,7 @@
   "always_show_minimap_viewport": true,
   "show_encoding": false,
   "translate_tabs_to_spaces": true,
-  "index_files": true,
+  "index_files": false,
   "console_max_history_lines": 3000,
   "font_face": "Jetbrains Mono",
   "save_on_focus_lost": true,
@@ -16,6 +16,7 @@
   "highlight_gutter": true,
   "ignored_packages":
   [
+    "SSH Config",
   ],
   "auto_complete": true,
   "disable_custom_title_bar": false,
