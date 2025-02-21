@@ -149,6 +149,12 @@
         {
           "file_path": ".*ansible.*"
         },
+        {
+          "file_name": "inventory.yaml"
+        },
+        {
+          "file_name": "inventory.yml"
+        }
       ],
     },
     {
