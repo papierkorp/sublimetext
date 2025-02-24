@@ -1,0 +1,14 @@
+{
+    "shell_configs": [
+        {
+            "name": "WSL",
+            "cmd": ["wsl"],
+            "default": true,
+            "enable": true,
+            "env": {},
+            "platforms": ["windows"]
+
+        },
+    ],
+}
+

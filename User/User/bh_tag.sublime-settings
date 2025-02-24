@@ -1,0 +1,30 @@
+{
+  "tag_mode": [{ "mode": "jsx", "syntax": ["JSX", "TSX"] }],
+  "tag_style": {
+    "jsx": "tag",
+  },
+  "tag_scope_exclude": {
+    "jsx": ["string", "comment"],
+  },
+  "optional_tag_patterns": {
+    "jsx": null,
+  },
+  "void_tag_patterns": {
+    "jsx": null,
+  },
+  "self_closing_tag_patterns": {
+    "jsx": "[\\w:\\.\\-]",
+  },
+  "tag_name": {
+    "jsx": "[\\w:\\.\\-]",
+  },
+  "attributes": {
+    "jsx": "(([\\w:@][-\\w\\d:.]*(?:\\s*=\\s*(?:\"[^\"]*\"|'[^']*'|{{[^{}]}}|{[^{}]}))?)|{[\\w\\d]})",
+  },
+  "start_tag": {
+    "jsx": "<(%(tag_name)s)(?:(?:\\s|(?<=['\"]))%(attributes)s)*\\s*(/?)>",
+  },
+  "end_tag": {
+    "jsx": "</([\\w\\:\\.\\-])[^>]*>",
+  },
+}

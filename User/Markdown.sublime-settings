@@ -1,0 +1,10 @@
+{
+	"default_extension": "md",
+	"extensions":
+	[
+		"txt",
+		".txt",
+		"md",
+	],
+	"tab_size": 2,
+}

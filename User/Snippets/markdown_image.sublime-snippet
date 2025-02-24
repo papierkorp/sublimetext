@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+![${1:alt text}](${2:image url} "${3:hover text}")
+]]></content>
+    <tabTrigger>mimg</tabTrigger>
+    <scope>text.html.markdown</scope>
+    <description>Markdown Image</description>
+</snippet>

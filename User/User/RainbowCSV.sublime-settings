@@ -1,0 +1,5 @@
+// Settings in here override those in "RainbowCSV.sublime-settings"
+
+{
+    "allow_newlines_in_fields": true,
+}

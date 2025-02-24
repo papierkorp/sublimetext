@@ -1,0 +1,15 @@
+{
+	"enabled": false,
+	"settings": {
+		"yaml": {
+	      "schemas": {
+		        "https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/v1.29.0-standalone/all.json": [
+		          "/**/templates/*.yaml",
+		          "/**/templates/*.yml",
+		          "/**/*manifest*.yaml",
+		          "/**/*manifest*.yml"
+		        ]
+	      }
+		}
+	}
+}

@@ -1,0 +1,131 @@
+{
+  "show_inlay_hints": true,
+  "inhibit_snippet_completions": true,
+  "inhibit_word_completions": true,
+  "log_debug": true,
+  "show_code_actions": "annotation",
+  "show_diagnostics_annotations_severity_level": 2,
+  "show_diagnostics_panel_on_save": 1,
+  "show_references_in_quick_panel": true,
+  "lsp_format_on_save": true,
+  "lsp_code_actions_on_save": {
+    "source.organizeImports": true,
+  },
+  "clients": {
+    "godot-lsp": {
+      "enabled": false,
+      "command": [
+        "C:\\develop\\privat\\godot\\Godot_v4.3-stable_win64.exe"
+      ],
+      "tcp_port": 6005,
+      "selector": "source.gdscript",
+    },
+    // "md-lsp": {
+    //   //cargo install --git https://github.com/matkrin/md-lsp.git
+    //   "enabled": false,
+    //   "command": [
+    //     "md-lsp",
+    //   ],
+    //   "selector": "text.html.markdown",
+    // },
+    "kotlinls": {
+      "enabled": false,
+      "command": [
+        "C:\\bin\\kotlin-lsp\\bin\\kotlin-language-server.bat"
+      ],
+      "selector": "source.Kotlin",
+      "settings": {
+        "kotlin": {
+          // put your server settings here
+        },
+      },
+    },
+    "phpactor": {
+      "enabled": true,
+      "command": [
+        "phpactor",
+        "language-server"
+      ],
+      "selector": "embedding.php",
+      "priority_selector": "source.php",
+    },
+    "gopls": {
+      "enabled": true,
+      "command": [
+        "/home/markus/go/bin/gopls"
+      ],
+      "env": {
+        // "PATH": "C:\\Program Files\\Go\\bin",
+        // "PATH": "C:\\Users\\markus\\go\\bin",
+        "PATH": "/usr/local/go/bin:/home/markus/go/bin",
+        "GOPATH": "/home/markus/go/bin",
+        "TEMPL_EXPERIMENT": "rawgo"
+      },
+      "settings": {
+        "experimentalWorkspaceModule": true
+      },
+      "selector": "source.go"
+    },
+    "ansible": {
+      "enabled": false,
+      "command": [
+        "C:\\bin\\ansible-language-server.bat",
+        "--stdio"
+      ],
+      "selector": "source.ansible",
+      "schemes": [
+        "file"
+      ],
+      "env": {
+        "ANSIBLE_LINT_PATH": "ansible-lint",
+        "PATH": "/home/markus/.local/bin:/usr/bin:${PATH}"
+      },
+      "initializationOptions": {
+        "ansible": {
+          "path": "ansible",
+          "useFullyQualifiedCollectionNames": true
+        },
+        "ansibleLint": {
+          "enabled": true,
+          "path": "ansible-lint"
+        }
+      },
+      "settings": {
+        "ansible.path": "/usr/bin/ansible",
+        "ansible.ansible-lint.path": "/home/markus/.local/bin/ansible-lint"
+      }
+    },
+    "helm-ls": {
+      "enabled": true,
+      "command": [
+        "helm_ls",
+        "serve"
+      ],
+      "selector": "source.yaml.jinja | source.meta.jinja",
+      "settings": {
+        "helm-ls": {
+          "logLevel": "info",
+        },
+        "yamlls": {
+          "enabled": false,
+          "diagnosticsLimit": 0,
+        },
+      },
+    },
+    "templ": {
+      "enabled": false,
+      "command": [
+        "C:\\Windows\\system32\\cmd.exe",
+        "wsl",
+        "sh",
+        "-c",
+        "templ_path=$(wslpath -u '/home/markus/go/bin/templ') && $templ_path lsp"
+      ],
+      "selector": "source.go.templ",
+      "tcp_port": "5286"
+    },
+    //https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md#htmx
+    //https://github.com/ThePrimeagen/htmx-lsp
+    //cargo install htmx-lsp
+  },
+}

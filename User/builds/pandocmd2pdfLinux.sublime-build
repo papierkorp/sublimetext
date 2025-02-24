@@ -1,0 +1,10 @@
+{
+  "cmd": [
+    "bash",
+    "-c",
+    "pandoc --verbose --pdf-engine=pdflatex --citeproc -o \"$file_base_name.pdf\" \"$file_name\" -f markdown-implicit_figures && echo \"$file_base_name\"",
+  ],
+  "working_dir": "$file_path",
+  "shell": true,
+  "cancel": { "kill": true },
+}

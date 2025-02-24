@@ -1,0 +1,175 @@
+{
+  "reraise_exceptions": false,
+  "new_file_syntax": "Markdown/Markdown",
+  "add_exts_to_lang_settings": true,
+  "debug": true,
+  "default_syntaxes": [
+    {
+      "syntax": "Python/Python",
+      "extensions": [
+        "py"
+      ],
+    },
+    {
+      "syntax": "zzz A File Icon zzz/aliases/Groovy (Jenkins)",
+      "rules": [
+        {
+          "file_path": ".*\\Jenkinsfile*"
+        },
+        {
+          "globmatch": "*Jenkinsfile*"
+        },
+      ],
+    },
+    {
+      "syntax": "Kotlin/Kotlin",
+      "rules": [
+        {
+          "file_path": ".*\\.kts"
+        }
+      ],
+    },
+    {
+      "syntax": "User/JS Custom/Syntaxes/Flow",
+      "match": "all",
+      "rules": [
+        {
+          "file_path": ".*\\.jsx?$"
+        },
+        {
+          "first_line": "^/[/\\*] *@flow"
+        },
+      ],
+    },
+    {
+      "syntax": "Go/Go",
+      "rules": [
+        {
+          "file_name": ".*tpl"
+        }
+      ],
+    },
+    {
+      "syntax": "Templ/templ",
+      "rules": [
+        {
+          "file_name": ".*templ.*"
+        }
+      ],
+    },
+    {
+      "syntax": "Markdown/Markdown",
+      "extensions": [
+        ".txt",
+        "md"
+      ],
+    },
+    {
+      "syntax": "PlainTasks/PlainTasks",
+      "rules": [
+        {
+          "file_path": ".*todo.txt"
+        }
+      ],
+    },
+    {
+      "syntax": "Git Formats/Git Config",
+      "rules": [
+        {
+          "file_path": ".*\\gitconfig*"
+        }
+      ],
+    },
+    {
+      "syntax": "Generic Config/GenericConfig",
+      "extensions": [
+        "config",
+        "conf",
+        "cfg"
+      ],
+    },
+    {
+      "syntax": "ShellScript/Bash",
+      "extensions": [
+        "sh",
+        "bash",
+        "bat"
+      ],
+    },
+    {
+      "syntax": "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile",
+      "rules": [
+        //{ "file_path": ".*docker.*" },
+        {
+          "file_path": ".*/Dockerfile.*"
+        },
+        // { "file_path": ".*/docker-compose.*" },
+        // { "file_path": ".*/dockercompose.*" },
+      ],
+    },
+    {
+      "syntax": "Ansible/Ansible",
+      "rules": [
+        {
+          "file_name": ".*/tasks/.*.yml$"
+        },
+        {
+          "file_name": ".*/handler/.*.yml$"
+        },
+        {
+          "file_name": ".*/*_vars/.*.yml$"
+        },
+        {
+          "file_name": ".*/roles/.*.yml$"
+        },
+        {
+          "file_name": ".*/playbooks/.*.yml$"
+        },
+        {
+          "file_name": ".*/.*ansible.*/.*.yml$"
+        },
+        {
+          "file_name": ".*/tasks/.*.yaml$"
+        },
+        {
+          "file_name": ".*/handler/.*.yaml$"
+        },
+        {
+          "file_name": ".*/*_vars/.*.yaml$"
+        },
+        {
+          "file_name": ".*/roles/.*.yaml$"
+        },
+        {
+          "file_name": ".*/playbooks/.*.yaml$"
+        },
+        {
+          "file_name": ".*/.*ansible.*/.*.yaml$"
+        },
+        {
+          "file_path": ".*ansible.*"
+        },
+      ],
+    },
+    {
+      "syntax": "Jinja2/Syntaxes/YAML/YAML (Jinja)",
+      "extensions": [
+        "tmpl",
+        "j2"
+      ],
+      "rules": [
+        {
+          "file_path": ".*tmpl"
+        }
+      ],
+    },
+    {
+      "syntax": "Jinja2/Syntaxes/YAML/YAML (Jinja)",
+      "rules": [
+        {
+          "file_path": ".*helm.*"
+        }
+      ],
+    },
+  ],
+}
