@@ -14,8 +14,7 @@
   "highlight_find_results_in_scrollbar": true,
   "highlight_line": true,
   "highlight_gutter": true,
-  "ignored_packages":
-  [
+  "ignored_packages": [
     "SSH Config",
   ],
   "auto_complete": true,

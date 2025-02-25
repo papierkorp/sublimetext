@@ -75,7 +75,8 @@
       "selector": "source.ansible",
       "settings": {
         "ansible.ansible.useFullyQualifiedCollectionNames": true,
-        "ansible.validation.lint.enabled": true
+        "ansible.validation.lint.enabled": true,
+        "ansible.validation.lint.arguments": "-c ${packages}/User/.ansible-lint"
       }
     },
     "helm-ls": {

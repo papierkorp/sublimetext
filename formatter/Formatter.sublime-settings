@@ -1,0 +1,208 @@
+// Do NOT edit anything in the left-hand pane.
+// Pick up items you need, just make sure to maintain the structure.
+{
+  "debug": true,
+  "open_console_on_failure": false,
+  "show_statusbar": true,
+  "formatters": {
+    "ktlint": {
+      "enable": false,
+      "format_on_save": true,
+      "syntaxes": ["kotlin", "Kotlin/Kotlin", "Kotlin", "kt", "kts"],
+      "interpreter_path": "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+      "executable_path": "C:\\bin\\ktlint\\ktlint.bat",
+    },
+    "prettier": {
+      "enable": true,
+      "format_on_save": {
+        "exclude_syntaxes": ["Dockerfile", "go", "Jinja2/Syntaxes/YAML/YAML (Jinja)"],
+        "exclude_dirs_regex": [".*helm.*"],
+      },
+      "format_on_paste": false,
+      "syntaxes": [
+        "css",
+        "scss",
+        "less",
+        "js",
+        "jsx",
+        "json",
+        "html",
+        "graphql",
+        "markdown",
+        "ts",
+        "tsx",
+        "vue",
+        "yaml",
+        "yml",
+        "ansible",
+        "PackageDev/Package/Sublime Text Settings/Sublime Text Settings",
+        "PackageDev/Package/Sublime Text Keymap/Sublime Text Keymap",
+        "sublime.settings",
+        "PackageDev/Package/Sublime Text Settings/Sublime Text Settings",
+        "XML/XML",
+      ],
+      "config_path": {
+        "default": "C:\\develop\\gitlab\\leasone\\webapp\\.prettierrc.json",
+        "yaml": "${packages}\\User\\formatter.assets\\config\\prettier_rc.json",
+        "markdown": "${packages}\\User\\formatter_markdown_prettier_rc.json",
+        // "html": "${packages}\\User\\formatter_html_prettier_rc.json",
+      },
+      "executable_path": ["C:\\Users\\Markus\\AppData\\Roaming\\npm\\prettier.cmd"],
+      "args": ["--log-level", "debug", "--single-quote"],
+    },
+    "shellcheck": {
+      "enable": true,
+      "format_on_save": true,
+      "format_on_paste": false,
+      "syntaxes": ["bash", "sh", "bat"],
+      "executable_path": ["C:\\ProgramData\\chocolatey\\bin\\shellcheck.exe", "/usr/bin/shellcheck"],
+    },
+    "black": {
+      "info": "https://github.com/psf/black",
+      "enable": true,
+      "format_on_save": true,
+      "format_on_paste": false,
+      "new_file_on_format": false,
+      "dir_format": {
+        "enable": false,
+        "exclude_dirs_regex": [],
+        "exclude_files_regex": [],
+        "exclude_extensions_regex": [],
+        "exclude_syntaxes": [],
+      },
+      "syntaxes": ["python"],
+      "executable_path": ["C:\\Users\\Markus\\AppData\\Roaming\\Python\\Python311\\Scripts\\black.exe", "/home/markus/.local/bin/black"],
+      "config_path": {
+        "default": "${packages}\\User\\formatter.assets\\config\\black_rc.toml",
+      },
+      /* requires "environ": {"PYTHONPATH": ["/lib/python3.7/site-packages"]}. requires python on PATH if omit interpreter_path */
+    },
+    "dockfmt": {
+      "info": "https://github.com/jessfraz/dockfmt",
+      "enable": true,
+      "format_on_save": false,
+      "format_on_paste": false,
+      "syntaxes": ["dockerfile", "Dockerfile Syntax Highlighting/Syntaxes/Dockerfile", "Dockerfile"],
+      "executable_path": ["C:\\Program Files\\Go\\bin\\dockfmt.exe", "/home/markus/go/bin/dockfmt"],
+    },
+    // "templ": {
+    //   "name": "Templ",
+    //   "type": "beautifier",
+    //   "enable": true,
+    //   "format_on_save": true,
+    //   "syntaxes": ["templ", "go.templ"],
+    //   "executable_path": ["cmd"],
+    //   "args": [
+    //     "wsl",
+    //     "sh",
+    //     "-c",
+    //     // "templ_path=$(wslpath -u '/home/markus/go/bin/templ') && file_path=$(wslpath -u \"$1\") && $templ_path fmt $file_path",
+    //     "templ_path=$(wslpath -u '/usr/local/go/bin/templ') && file_path=$(wslpath -u \"$1\") && $templ_path fmt $file_path",
+    //   ],
+    //   ///home/markus/go/bin/templ fmt /mnt/c/develop/gowiki/internal/templates/home.templ
+    // },
+    "gofmt": {
+      "info": "https://pkg.go.dev/cmd/gofmt",
+      "enable": true,
+      "format_on_save": true,
+      "format_on_paste": false,
+      "syntaxes": ["go", "Gomod"],
+      "executable_path": ["C:\\Program Files\\Go\\bin", "/usr/local/go/bin/gofmt"],
+      "exclude_syntaxes": ["go.templ", "templ"],
+    },
+    "stylua": {
+      "info": "https://github.com/JohnnyMorganz/StyLua",
+      "enable": true,
+      "format_on_save": true,
+      "format_on_paste": false,
+      "syntaxes": ["lua"],
+      "executable_path": ["/usr/local/bin/stylua"],
+    },
+  },
+  "auto_format": {
+    "config": {
+      "format_on_save": false,
+      "format_on_paste": false
+    },
+    "Packages/Jinja2/Syntaxes/YAML/YAML (Jinja).sublime-syntax": {
+      "format_on_save": false
+    },
+    "Jinja2/Syntaxes/YAML/YAML (Jinja)": {
+      "format_on_save": false
+    },
+    "sublime.settings": {
+      "format_on_save": true,
+      "uid": "prettier",
+    },
+    "json": {
+      "format_on_save": true,
+      "uid": "prettier",
+    },
+    "lua": {
+      "format_on_save": true,
+      "uid": "stylua",
+    },
+    "javascript": {
+      "format_on_save": true,
+      "uid": "prettier",
+    },
+    "jsx": {
+      "format_on_save": true,
+      "uid": "prettier",
+    },
+    "typescript": {
+      "format_on_save": true,
+      "uid": "prettier",
+    },
+    "tsx": {
+      "format_on_save": true,
+      "uid": "prettier",
+    },
+    "html": {
+      "format_on_save": true,
+      "uid": "prettier",
+      "exclude_syntaxes": {
+        "html": ["markdown"],
+      },
+    },
+    "bash": {
+      "format_on_save": true,
+      "uid": "shellcheck",
+    },
+    "kotlin": {
+      "format_on_save": true,
+      "uid": "ktlint",
+    },
+    "yaml": {
+      "format_on_save": true,
+      "format_on_paste": false,
+    },
+    "yml": {
+      "format_on_save": true,
+      "uid": "prettier",
+    },
+    "markdown": {
+      "format_on_save": true,
+      "format_on_paste": false,
+      "uid": "prettier",
+    },
+    "Ansible": {
+      "format_on_save": true,
+      "uid": "prettier",
+    },
+    "Dockerfile": {
+      "format_on_save": false,
+      "uid": "dockfmt",
+    },
+    "go": {
+      "format_on_save": true,
+      "uid": "gofmt",
+      "exclude_extensions_regex": ["templ"],
+      "exclude_files_regex": [".*\\.templ"],
+    },
+    "zzz A File Icon zzz/aliases/JSON (Sublime)": {
+      "format_on_save": true,
+      "uid": "prettier",
+    },
+  },
+}

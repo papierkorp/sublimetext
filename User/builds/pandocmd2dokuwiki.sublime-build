@@ -1,7 +1,0 @@
-{
-  "target": "wsl_exec",
-  "cancel": { "kill": true },
-  // "wsl_cmd": "whoami && pwd && cat /etc/os-release && echo $file_path && echo $unix_file_path && echo $file_base_name && echo $file_name",
-  "wsl_cmd": "pwd && ls -lisah P* && /usr/local/pandoc-3.2.1/bin/pandoc $file_name -f markdown -t dokuwiki -o /mnt/c/develop/tmp/pandoc/$file_base_name.txt --verbose && echo 'C:\\develop\\tmp\\pandoc' && explorer.exe $(wslpath -w $unix_file_path)",
-  "wsl_working_dir": "$unix_file_path",
-}

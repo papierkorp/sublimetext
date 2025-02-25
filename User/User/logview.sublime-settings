@@ -1,7 +1,0 @@
-{
-	"error_filter": "error|fail|exception|fehler|SCHWERWIEGEND|invalid|failure|forbidden|Failed|fatal|err=|SEVERE",
-	"warning_filter": "warning|not found|defer(ed)?|warnung|warn|stop|illegal|404|401|unable|refused",
-	"mark_filter": "waiting|note",
-	"highlight_style": "fill",
-	"auto_match_words": false
-}
