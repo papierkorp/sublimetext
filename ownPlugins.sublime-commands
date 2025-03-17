@@ -9,4 +9,8 @@
     "command": "own_delete_linebreaks",
     "args": { "format_json": true },
   },
+  {
+    "caption": "own: Format OpenLens Kubernetes Log to valid JSON",
+    "command": "own_format_open_lens_log_to_valid_json"
+  }
 ]

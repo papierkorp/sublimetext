@@ -26,6 +26,37 @@
   ],
   "debug": true,
   "linters": {
+    "annotations": {
+      "mark_message": true,
+      "infos": [
+        "nottodo",
+        "nottodo2"
+      ],
+      "warnings": [
+        "todo",
+        "FIXME",
+        "TODO",
+        "NOTE",
+        "note",
+        "fixme",
+        "@todo",
+        "@TODO"
+      ],
+      "errors": [
+        "error",
+        "fail",
+        "exception",
+        "fehler",
+        "SCHWERWIEGEND",
+        "invalid",
+        "failure",
+        "forbidden",
+        "Failed",
+        "fatal",
+        "err=",
+        "SEVERE"
+      ]
+    },
     "ktlint": {
       "disable": false,
       "executable": "C:\\bin\\ktlint\\ktlint.bat",

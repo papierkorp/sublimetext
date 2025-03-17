@@ -48,6 +48,7 @@
 		"SideBarEnhancements",
 		"SSH Config",
 		"SublimeLinter",
+		"SublimeLinter-annotations",
 		"SublimeLinter-contrib-ansible-lint",
 		"SublimeLinter-contrib-hadolint",
 		"SublimeLinter-contrib-htmlhint",
