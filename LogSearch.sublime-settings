@@ -1,0 +1,20 @@
+{
+	"bookmark": "all",
+	"error_filter":
+	[
+		"\\berror\\b",
+		"\\bexception\\b",
+		"\\bfatal\\b"
+	],
+	"highlight_style": "fill",
+	"info_filter":
+	[
+		"\\binfo\\b",
+		"\\binformation\\b"
+	],
+	"warning_filter":
+	[
+		"\\bwarn\\b",
+		"\\bwarning\\b"
+	]
+}

@@ -43,18 +43,7 @@
         "@TODO"
       ],
       "errors": [
-        "error",
-        "fail",
-        "exception",
-        "fehler",
-        "SCHWERWIEGEND",
-        "invalid",
-        "failure",
-        "forbidden",
-        "Failed",
-        "fatal",
-        "err=",
-        "SEVERE"
+        "nottodo"
       ]
     },
     "ktlint": {

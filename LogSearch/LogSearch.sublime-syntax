@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+name: LogSearch
+file_extensions: [log, txt]
+scope: text.log
+contexts:
+  main:
+    - match: ''
+      scope: text.log
