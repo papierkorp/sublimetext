@@ -2,7 +2,10 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"LSP-tailwindcss",
+		"LSP-typescript",
 		"SSH Config",
+		"SublimeLinter",
 	],
 	"installed_packages":
 	[

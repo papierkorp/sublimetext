@@ -15,7 +15,10 @@
   "highlight_line": true,
   "highlight_gutter": true,
   "ignored_packages": [
+    "LSP-tailwindcss",
+    "LSP-typescript",
     "SSH Config",
+    "SublimeLinter",
   ],
   "auto_complete": true,
   "disable_custom_title_bar": false,
