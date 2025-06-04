@@ -1,4 +1,4 @@
-[
+mi[
   {
     "caption": "own: Delete Linebreaks",
     "command": "own_delete_linebreaks",
@@ -12,5 +12,9 @@
   {
     "caption": "own: Format OpenLens Kubernetes Log to valid JSON",
     "command": "own_format_open_lens_log_to_valid_json"
+  },
+  {
+    "caption": "own: Markdown to Dokuwiki",
+    "command": "own_markdown_to_dokuwiki"
   }
 ]
